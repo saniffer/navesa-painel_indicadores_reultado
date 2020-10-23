@@ -1,0 +1,157 @@
+///$tab 2.Estrutura x Esqueleto
+SET Verbatim = 1;  
+
+etemp:  
+LOAD
+	Ordem as IdEsqueleto,
+//RowNo() as IdEsqueleto,
+    Visão,
+  //  Texto,
+    Repeat(' ',5 * Nivel) & Texto as Texto,
+    Calculado,
+    CodInicio, 
+    if(CodFim='' or IsNull(CodFim), CodInicio, CodFim) as CodFim,  
+    Calculo,
+    Nivel,
+    Origem
+    
+FROM [lib://1.resources/visão.xlsx]
+(ooxml, embedded labels, table is [Esqueleto])
+
+WHERE
+	TRIM(Texto)<>''; 
+ 
+TabSeq: // colocando os itens na ordem que foram carregados
+Load
+	Visão,
+	FirstValue(Texto) as ItemTEMP,
+	Max(IdEsqueleto) as Seq
+Resident
+	etemp
+Group by
+	Visão, Texto
+;
+
+
+LET NumRows = NoOfRows('etemp')-1;
+
+FOR i=0 to $(NumRows)
+
+	LET vIdEsqueleto	= Peek('IdEsqueleto',$(i), 'etemp');
+    LET vNivel	= Peek('Nivel',$(i), 'etemp');
+	LET vVisao			= Peek('Visão',$(i), 'etemp');
+	LET vTexto			= Peek('Texto',$(i), 'etemp');
+	LET vCalculado		= Peek('Calculado',$(i), 'etemp');
+	LET vCalculo		= Peek('Calculo',$(i), 'etemp');
+	LET vCodInicio		= Peek('CodInicio',$(i), 'etemp');
+	LET vOrigem			= Peek('Origem',$(i), 'etemp');
+	LET vQtde			= NumMax(1, Peek('CodFim',$(i), 'etemp') - Peek('CodInicio',$(i), 'etemp') + 1);
+
+	LET vCodInicio		= if('$(vCodInicio)' = '',0,$(vCodInicio));
+    
+	TabEsqueleto:
+	Load
+		IdEsqueleto,
+		AutoNumberHash128(Visão, Cod) as IdVisao,
+		Texto as ItemTEMP,
+		Calculado,
+		Calculo,
+		TipoSaldo,
+        Nivel,
+		if(TipoVisao='D', Visão) as VisãoD,
+		if(TipoVisao='B', Visão) as VisãoB,
+		if(TipoVisao='F', Visão) as VisãoF
+	Where
+		Trim(Texto)<>''
+	;
+	LOAD
+		$(vIdEsqueleto) as IdEsqueleto,
+		'$(vVisao)' as Visão, 
+		'$(vTexto)' as Texto, 
+		'$(vCalculado)' as Calculado,
+		'$(vCalculo)' as Calculo,
+		'$(vTipoSaldo)' as TipoSaldo,
+		'$(vTipoVisao)' as TipoVisao, 
+        '$(vNivel)' as Nivel,
+		if($(vCodInicio)=0,0, $(vCodInicio)+recno()-1) as Cod
+        
+	AutoGenerate 
+		($(vQtde))
+	;
+
+
+NEXT;
+
+drop table etemp; 
+
+Inner Join (TabVisoes)
+Load 
+	IdEsqueleto,
+	IdVisao,
+	Calculo as m_temp,
+	Calculado,
+	ItemTEMP,
+    Nivel, 
+	TipoSaldo as TipoSaldo_temp,
+	VisãoD,
+	VisãoB,
+	VisãoF
+Resident
+	TabEsqueleto;
+
+drop table TabEsqueleto;
+ 
+
+left join (TabVisoes)
+Load
+	Visão,
+	CodContaContabil,
+	Cod,
+	FirstValue(TipoSaldo_temp) as TipoSaldo_tot,
+	FirstValue(m_temp) as m_tot
+Resident
+	TabVisoes
+Where
+	trim(Calculado)='' or IsNull(Calculado)
+group by 
+	Visão,
+	Cod,
+	CodContaContabil	
+;
+
+drop field Cod;
+
+
+
+
+TabV:
+NoConcatenate Load
+	*,
+	if(isnull(TipoSaldo_tot),TipoSaldo_temp,TipoSaldo_tot) as TipoSaldo,
+	if(isnull(m_tot), m_temp,m_tot) as Multiplic
+Resident
+	TabVisoes
+;
+
+drop table TabVisoes;
+
+left Join (TabV)
+Load Visão, ItemTEMP, Seq Resident TabSeq;
+
+drop table TabSeq;
+
+TabVisão:
+Load 
+	*, 
+    ItemTEMP as Item
+Resident
+	TabV;
+
+drop table TabV;
+
+
+ 
+left join (TabVisão) Load * Resident TabVF;
+drop table TabVF;
+
+drop fields ItemTEMP, TipoSaldo_temp,TipoSaldo_tot,m_temp,m_tot;

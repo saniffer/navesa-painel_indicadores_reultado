@@ -1,0 +1,15 @@
+///$tab Section Access
+// Section Access;
+// LOAD
+//     "ACCESS",
+//     "USERID",
+//     REDUCTION
+// FROM [lib://1.resources/USUÁRIOS ANALISER CAPACITY.xlsx]
+// (ooxml, embedded labels, table is Acessos);
+
+// section application;
+// LOAD
+//     CodEmpresa as REDUCTION,
+//     CodEmpresa
+// FROM [lib://Transform/EmpresaGrupo.qvd]
+// (qvd);

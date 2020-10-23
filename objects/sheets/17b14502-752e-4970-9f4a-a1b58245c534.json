@@ -1,0 +1,1062 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "17b14502-752e-4970-9f4a-a1b58245c534",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Despesas ADM",
+      "description": ""
+    },
+    "rank": 2.96875,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/1be891ec-2960-4fa1-95c7-8de342a311f3/tabela.png"
+      }
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "ea708210-6e06-43b0-adab-e741e1c24b68",
+        "type": "filterpane",
+        "col": 0,
+        "row": 0,
+        "colspan": 2,
+        "rowspan": 8
+      },
+      {
+        "name": "2db3cbc5-7ce5-4126-8497-6556edecf1a4",
+        "type": "table",
+        "col": 2,
+        "row": 0,
+        "colspan": 18,
+        "rowspan": 12
+      },
+      {
+        "name": "a0accc2f-0245-42f4-9149-8045c9b84ae7",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 0,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "442eca80-9ff2-4f65-ac9f-22d443a7ba83",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 1,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "c5c6ffe6-dfdf-4699-9356-dbb4c8e25a9a",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 2,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "nRhzup",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 3,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "fWrsjtH",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 4,
+        "colspan": 4,
+        "rowspan": 1
+      }
+    ]
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ea708210-6e06-43b0-adab-e741e1c24b68",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "visualization": "filterpane"
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "637da100-4449-44bd-82f8-2bdc4b4adccf",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "sryLDk",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": -1,
+                    "qSortByAscii": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": false,
+                "cId": "btaYKQ"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "AnoExercicioContábil",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "88f76ce2-c8b7-400f-9a40-3a39ff3c817f",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "JHDBt",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "ZQGDSv"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Mês",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "c90c5db5-b5b3-4654-9ad6-aa456d641ad5",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Nivel"
+                ],
+                "qFieldLabels": [
+                  "Nivel"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "SYQr"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Nivel",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "8a9c98bb-bc1c-4d3e-bd6b-ac69393bc8b7",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "dPdjPfL",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "eJjwJ"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "GrupoEmpresa",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "586690b5-ffe1-4c50-aead-7fedb01693de",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "NomeEmpresa"
+                ],
+                "qFieldLabels": [
+                  "Empresa"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "vmvzULx"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Empresa",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "47e82037-71c6-44f6-9a74-329af9e6f292",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "RazãoSocial"
+                ],
+                "qFieldLabels": [
+                  "RazãoSocial"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "dPPJe"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Razão Social",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "2db3cbc5-7ce5-4126-8497-6556edecf1a4",
+          "qType": "table"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=CodItemDespesasADM"
+                ],
+                "qFieldLabels": [
+                  "Cod"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "FWFfVm",
+                "othersLabel": "Outros",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlLabel": ""
+                }
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Outros"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=ItemDemonstrativo"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "='Empresa'&'='&NomeEmpresa&'-'&'Meses: '&month(min(date(Data)))&'/'&month(max(date(Data)))",
+                "autoSort": true,
+                "cId": "gmTvSP",
+                "othersLabel": "Outros",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlLabel": ""
+                }
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Outros"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))//rgb(25,46,84))",
+                  "id": "cellBackgroundColor"
+                },
+                {
+                  "qExpression": "if(FlagItem='S',White())",
+                  "id": "cellForegroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "if([Visão Demonstrativo]='DESPESAS ADM',\nif(CodItemDespesasADM='1',vTotalDespIndADM,\nif(CodItemDespesasADM='2',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='3',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='4',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='5',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='6',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='7',(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n),\nif(CodItemDespesasADM='8',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='9',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='10',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='11',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='12',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='13',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='14',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='15',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='16',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='17',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemDespesasADM='18',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\n\nif(CodItemDespesasADM='19',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\n\n\nif(CodItemDespesasADM='20',(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'41','42','51','91','92','93','96'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN4={'94101'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n-\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)-\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))),\n\nif(CodItemDespesasADM='21',vTotalDespIndADM,\n\n\n))))))))))))))))))))))",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0;(#.##0)",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Valor'&'/'&vAnoAnt",
+                "autoSort": true,
+                "cId": "nsaEpE",
+                "numFormatFromTemplate": false,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))//rgb(25,46,84))",
+                  "id": "cellBackgroundColor"
+                },
+                {
+                  "qExpression": "=IF( column(1)<0,LightRed(),   if(FlagItem='S',White()))",
+                  "id": "cellForegroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": []
+            },
+            {
+              "qDef": {
+                "qLabel": "%",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "=(Column(3)/column(1)-1)",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "▲0,00%;▼0,00%",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "YtxsmGC",
+                "numFormatFromTemplate": false,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if((Column(3)/column(1)-1)<0,LightRed())",
+                  "id": "cellForegroundColor"
+                },
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))",
+                  "id": "cellBackgroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": []
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "if([Visão Demonstrativo]='DESPESAS ADM',\nif(CodItemDespesasADM='1',vTotalDespIndAdmAnoAtu,\nif(CodItemDespesasADM='2',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'}>}Valor),\nif(CodItemDespesasADM='3',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'}>}Valor),\nif(CodItemDespesasADM='4',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'}>}Valor),\nif(CodItemDespesasADM='5',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'}>}Valor),\nif(CodItemDespesasADM='6',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'}>}Valor),\nif(CodItemDespesasADM='7',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'}>}Valor)-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'}>}Valor)\n,\nif(CodItemDespesasADM='8',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'}>}Valor),\n\nif(CodItemDespesasADM='9',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'}>}Valor),\nif(CodItemDespesasADM='10',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'}>}Valor),\nif(CodItemDespesasADM='11',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'}>}Valor),\nif(CodItemDespesasADM='12',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'}>}Valor),\nif(CodItemDespesasADM='13',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'}>}Valor),\nif(CodItemDespesasADM='14',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'}>}Valor),\nif(CodItemDespesasADM='15',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'}>}Valor),\nif(CodItemDespesasADM='16',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'}>}Valor),\nif(CodItemDespesasADM='17',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'}>}Valor),\nif(CodItemDespesasADM='18',Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'}>}Valor),\n\nif(CodItemDespesasADM='19',\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'}>}Valor),\n\nif(CodItemDespesasADM='20',\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'41','42','51','91','92','93','96'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN4={'94101'}>}Valor))\n-\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'}>}Valor)-\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'}>}Valor))+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'}>}Valor))),\nif(CodItemDespesasADM='21',vTotalDespIndAdmAnoAtu,\n\n))))))))))))))))))))))\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0;(#.##0)",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Valor'&'/'&Ano",
+                "autoSort": true,
+                "cId": "WKqpCvX",
+                "numFormatFromTemplate": false,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))//rgb(25,46,84))",
+                  "id": "cellBackgroundColor"
+                },
+                {
+                  "qExpression": "=IF( column(1)<0,LightRed(), \n if(FlagItem='S',White()))",
+                  "id": "cellForegroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": []
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            4,
+            2,
+            3
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "columnOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "columnWidths": [
+            34,
+            216,
+            128,
+            141,
+            156
+          ],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "Demonstrativo de Resultado Navesa",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "totals": {
+          "show": false,
+          "position": "noTotals",
+          "label": "Totais"
+        },
+        "scrolling": {
+          "keepFirstColumnInView": false
+        },
+        "multiline": {
+          "wrapTextInHeaders": true,
+          "wrapTextInCells": true
+        },
+        "visualization": "table"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "a0accc2f-0245-42f4-9149-8045c9b84ae7",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Novos",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "7d2b8bac-5eda-4dd9-bb38-0efd8068b265",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "442eca80-9ff2-4f65-ac9f-22d443a7ba83",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Semi Novos",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "8cdc12a4-39d5-4935-a71c-0a34183d5d04",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "c5c6ffe6-dfdf-4699-9356-dbb4c8e25a9a",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Peças",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "6a478988-10cd-4116-9f88-203bf70fe036",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "nRhzup",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Serviços",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "024b8a56-f91c-4fb5-a462-1671989b1179",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "fWrsjtH",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "SUMARIO",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "5bf0362e-82de-4b6c-a726-f201dbe05f33",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

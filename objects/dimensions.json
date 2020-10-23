@@ -1,0 +1,276 @@
+[
+  {
+    "qInfo": {
+      "qId": "0b23e8c4-9197-4050-8b25-da66e3df726c",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Histórico"
+      ],
+      "qFieldLabels": [
+        "Histórico"
+      ],
+      "title": "Histórico"
+    },
+    "qMetaDef": {
+      "title": "Histórico",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "CpYPsU",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Data"
+      ],
+      "qFieldLabels": [
+        "Data"
+      ],
+      "title": "Data"
+    },
+    "qMetaDef": {
+      "title": "Data",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "Fkthag",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "CodContaContabil"
+      ],
+      "qFieldLabels": [
+        "Conta Contabil"
+      ],
+      "title": "Conta Contabil"
+    },
+    "qMetaDef": {
+      "title": "Conta Contabil",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "HjPJcj",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "FechExercicio"
+      ],
+      "qFieldLabels": [
+        "FechExercicio"
+      ],
+      "title": "FechExercicio"
+    },
+    "qMetaDef": {
+      "title": "FechExercicio",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "JHDBt",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=Month(Data)"
+      ],
+      "qFieldLabels": [
+        "Mês"
+      ],
+      "title": "Mês"
+    },
+    "qMetaDef": {
+      "title": "Mês",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "c6753884-ac40-4a82-8118-5e7f8e7f7c53",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Centro Custo Pai"
+      ],
+      "qFieldLabels": [
+        "Centro Custo Pai"
+      ],
+      "title": "Centro Custo Pai"
+    },
+    "qMetaDef": {
+      "title": "Centro Custo Pai",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "dPdjPfL",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "Grupo Empresa",
+        "NomeEmpresa"
+      ],
+      "qFieldLabels": [],
+      "title": "GrupoEmpresa"
+    },
+    "qMetaDef": {
+      "title": "GrupoEmpresa",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "krEjgP",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Ano"
+      ],
+      "qFieldLabels": [
+        "Ano"
+      ],
+      "title": "Ano"
+    },
+    "qMetaDef": {
+      "title": "Ano",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mXefDT",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Item"
+      ],
+      "qFieldLabels": [
+        "Item"
+      ],
+      "title": "Item"
+    },
+    "qMetaDef": {
+      "title": "Item",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "sryLDk",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ExercicioContabil"
+      ],
+      "qFieldLabels": [
+        "ExercicioContabil"
+      ],
+      "title": "ExercicioContabil"
+    },
+    "qMetaDef": {
+      "title": "ExercicioContabil",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "uamgyJQ",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "MesAno"
+      ],
+      "qFieldLabels": [
+        "Mês Ano"
+      ],
+      "title": "Mês Ano"
+    },
+    "qMetaDef": {
+      "title": "Mês Ano",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "wFujv",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "NomeEmpresa"
+      ],
+      "qFieldLabels": [
+        "Empresa"
+      ],
+      "title": "Empresa"
+    },
+    "qMetaDef": {
+      "title": "Empresa",
+      "description": "",
+      "tags": [
+        "Filial"
+      ]
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "xBEXux",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Descrição Centro Custo"
+      ],
+      "qFieldLabels": [
+        "Descrição Centro Custo"
+      ],
+      "title": "Descrição Centro Custo"
+    },
+    "qMetaDef": {
+      "title": "Descrição Centro Custo",
+      "description": "",
+      "tags": []
+    }
+  }
+]

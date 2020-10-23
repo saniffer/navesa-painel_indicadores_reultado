@@ -1,0 +1,1080 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "8cdc12a4-39d5-4935-a71c-0a34183d5d04",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "SEMINOVOS",
+      "description": ""
+    },
+    "rank": 2.75,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/1be891ec-2960-4fa1-95c7-8de342a311f3/tabela.png"
+      }
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "6af56e04-0328-4dea-95ec-f79aa39204eb",
+        "type": "filterpane",
+        "col": 0,
+        "row": 0,
+        "colspan": 2,
+        "rowspan": 8
+      },
+      {
+        "name": "f64d80c7-fc97-48f1-beda-add332edb404",
+        "type": "table",
+        "col": 2,
+        "row": 0,
+        "colspan": 18,
+        "rowspan": 12
+      },
+      {
+        "name": "zHk",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 0,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "mxzDWk",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 1,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "pEPwmQ",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 2,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "PucXFp",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 3,
+        "colspan": 4,
+        "rowspan": 1
+      },
+      {
+        "name": "BdaFnB",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 4,
+        "colspan": 4,
+        "rowspan": 1
+      }
+    ]
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "6af56e04-0328-4dea-95ec-f79aa39204eb",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "visualization": "filterpane"
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "db51cd95-67d8-47a5-9647-df71eeb9a5d9",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "sryLDk",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": -1,
+                    "qSortByAscii": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": false,
+                "cId": "btaYKQ"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "AnoExercicioContábil",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "f0e97db1-6761-4d74-b55e-aed59f7cd8b3",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "JHDBt",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "ZQGDSv"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Mês",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "de0f1890-a6c4-46c5-946d-c12362e6f325",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Nivel"
+                ],
+                "qFieldLabels": [
+                  "Nivel"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "SYQr"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Nivel",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "af5d87c2-8ae6-4210-b94c-e80424bf0386",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "dPdjPfL",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "eJjwJ"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "GrupoEmpresa",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "36312155-c6bc-4c5d-af17-3d9b6ac87969",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "NomeEmpresa"
+                ],
+                "qFieldLabels": [
+                  "Empresa"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "vmvzULx"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Empresa",
+            "subtitle": "",
+            "footnote": "",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "294ec34b-1256-43b4-851f-3fd40486286d",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "RazãoSocial"
+                ],
+                "qFieldLabels": [
+                  "RazãoSocial"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "dPPJe"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Razão Social",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "f64d80c7-fc97-48f1-beda-add332edb404",
+          "qType": "table"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=CodItemSemiNovos"
+                ],
+                "qFieldLabels": [
+                  "Cod"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "FWFfVm",
+                "othersLabel": "Outros",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlLabel": ""
+                }
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Outros"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=ItemDemonstrativo"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "='Empresa'&'='&NomeEmpresa&'-'&'Meses: '&month(min(date(Data)))&'/'&month(max(date(Data)))",
+                "autoSort": true,
+                "cId": "gmTvSP",
+                "othersLabel": "Outros",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlLabel": ""
+                }
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Outros"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))//rgb(25,46,84))",
+                  "qAttribute": true,
+                  "id": "cellBackgroundColor"
+                },
+                {
+                  "qExpression": "if(FlagItem='S',White())",
+                  "qAttribute": true,
+                  "id": "cellForegroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "if([Visão Demonstrativo]='SEMINOVOS',\nif(CodItemSemiNovos='1',count(distinct {<TipoVeiculo={'Usado'},ExercicioContabil={'$(vAnoAnt)'}>} CodProposta),\nif(CodItemSemiNovos='2',Sum({<GrupoCC={'301','302'},CodContaN3={'403'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)/count(distinct {<TipoVeiculo={'Usado'},ExercicioContabil={'$(vAnoAnt)'}>} CodProposta),\nif(CodItemSemiNovos='4',vVendasUsadosAnoAnt,//Sum({<GrupoCC={'301',302},CodContaN3={'403'}>}Valor)\t//vendas\nif(CodItemSemiNovos='5',vVendasUsadosAnoAnt+ Sum({<GrupoCC={'301',302},CodContaN4={'5013'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='6',Sum({<GrupoCC={'301',302},CodContaN4={'4111'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\t\t\t\t\t//outras receitas\n+Sum({<GrupoCC={'301','302'},CodContaN2={'421'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405114'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405103'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='7',Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\n\nif(CodItemSemiNovos='8',(vVendasUsadosAnoAnt+ Sum({<GrupoCC={'301',302},CodContaN4={'5013'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)) //total lucro bruto 5,6,7\n+(Sum({<GrupoCC={'301',302},CodContaN4={'4111'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\t\t\t\t\t\n+Sum({<GrupoCC={'301','302'},CodContaN2={'421'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405114'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405103'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\n\nif(CodItemSemiNovos='9',Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='10',Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),//5111030005 + 5111030007 - C.CUSTO 301\nif(CodItemSemiNovos='11',Sum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='12',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='13',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\n\nif(CodItemSemiNovos='14',Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='15',vTotaDespSemiFixaUsadoAnoAnt,\nif(CodItemSemiNovos='16',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030003'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='17',Sum({<GrupoCC={'302'},CodContaContabil={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='18',Sum({<GrupoCC={'301'},CodContaContabil={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='19',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='20',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='21',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010001','5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='22',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010027','5111010032'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='23',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='24',Sum({<GrupoCC={'301','302'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='25',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111050020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor),\nif(CodItemSemiNovos='26',vLinha26AnoAnt,\nif(CodItemSemiNovos='27',vTotaDespSemiFixaUsadoAnoAnt,\nif(CodItemSemiNovos='28',(Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+vTotaDespSemiFixaUsadoAnoAnt),\n\nif(CodItemSemiNovos='29',((vVendasUsadosAnoAnt+ Sum({<GrupoCC={'301',302},CodContaN4={'5013'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)) //total lucro bruto 5,6,7\n+(Sum({<GrupoCC={'301',302},CodContaN4={'4111'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\t\t\t\t\t\n+Sum({<GrupoCC={'301','302'},CodContaN2={'421'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405114'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405103'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n+\n(Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+vTotaDespSemiFixaUsadoAnoAnt),\n\n)))))))))))))))))))))))))))))",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0;(#.##0)",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Valor'&'/'&vAnoAnt",
+                "autoSort": true,
+                "cId": "nsaEpE",
+                "numFormatFromTemplate": false,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))//rgb(25,46,84))",
+                  "qAttribute": true,
+                  "id": "cellBackgroundColor"
+                },
+                {
+                  "qExpression": "=IF( column(1)<0,LightRed(),   if(FlagItem='S',White()))",
+                  "qAttribute": true,
+                  "id": "cellForegroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": []
+            },
+            {
+              "qDef": {
+                "qLabel": "%",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "=(Column(3)/column(1)-1)",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "▲0,00%;▼0,00%",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "YtxsmGC",
+                "numFormatFromTemplate": false,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if((Column(3)/column(1)-1)<0,LightRed())",
+                  "qAttribute": true,
+                  "id": "cellForegroundColor"
+                },
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))//rgb(25,46,84))",
+                  "qAttribute": true,
+                  "id": "cellBackgroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": []
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "if([Visão Demonstrativo]='SEMINOVOS',\nif(CodItemSemiNovos='1',count(distinct {<TipoVeiculo={'Usado'}>} CodProposta),\nif(CodItemSemiNovos='2',Sum({<GrupoCC={'301','302'},CodContaN3={'403'}>}Valor)/count(distinct {<TipoVeiculo={'Usado'}>} CodProposta),\nif(CodItemSemiNovos='4',vVendasUsados,//Sum({<GrupoCC={'301',302},CodContaN3={'403'}>}Valor)\t//vendas\nif(CodItemSemiNovos='5',vVendasUsados+ Sum({<GrupoCC={'301',302},CodContaN4={'5013'}>}Valor),\nif(CodItemSemiNovos='6',Sum({<GrupoCC={'301',302},CodContaN4={'4111'}>}Valor)\t\t\t\t\t//outras receitas\n+Sum({<GrupoCC={'301','302'},CodContaN2={'421'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405114'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405103'}>}Valor),\nif(CodItemSemiNovos='7',Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'}>}Valor),\n\nif(CodItemSemiNovos='8',(vVendasUsados+ Sum({<GrupoCC={'301',302},CodContaN4={'5013'}>}Valor)) //total lucro bruto 5,6,7\n+(Sum({<GrupoCC={'301',302},CodContaN4={'4111'}>}Valor)\t\t\t\t\t\n+Sum({<GrupoCC={'301','302'},CodContaN2={'421'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405114'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405103'}>}Valor))\n+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'}>}Valor),\n\nif(CodItemSemiNovos='9',Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'}>}Valor),\nif(CodItemSemiNovos='10',Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'}>}Valor),//5111030005 + 5111030007 - C.CUSTO 301\nif(CodItemSemiNovos='11',Sum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'}>}Valor),\nif(CodItemSemiNovos='12',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'}>}Valor),\nif(CodItemSemiNovos='13',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'}>}Valor),\n\nif(CodItemSemiNovos='14',Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'}>}Valor),\nif(CodItemSemiNovos='15',vTotaDespSemiFixaUsado,\nif(CodItemSemiNovos='16',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030003'}>}Valor),\nif(CodItemSemiNovos='17',Sum({<GrupoCC={'302'},CodContaContabil={'5111030002'}>}Valor),\nif(CodItemSemiNovos='18',Sum({<GrupoCC={'301'},CodContaContabil={'5111030002'}>}Valor),\nif(CodItemSemiNovos='19',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030014','5111030015'}>}Valor),\nif(CodItemSemiNovos='20',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030020'}>}Valor),\nif(CodItemSemiNovos='21',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010001','5111000006'}>}Valor),\nif(CodItemSemiNovos='22',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010027','5111010032'}>}Valor),\nif(CodItemSemiNovos='23',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030021'}>}Valor),\nif(CodItemSemiNovos='24',Sum({<GrupoCC={'301','302'},CodContaN5={'511106'}>}Valor)+\nSum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'}>}Valor),\nif(CodItemSemiNovos='25',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111050020'}>}Valor),\nif(CodItemSemiNovos='26',vLinha26,\nif(CodItemSemiNovos='27',vTotaDespSemiFixaUsado,\nif(CodItemSemiNovos='28',(Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'}>}Valor)+vTotaDespSemiFixaUsado),\n\nif(CodItemSemiNovos='29',((vVendasUsados+ Sum({<GrupoCC={'301',302},CodContaN4={'5013'}>}Valor)) //total lucro bruto 5,6,7\n+(Sum({<GrupoCC={'301',302},CodContaN4={'4111'}>}Valor)\t\t\t\t\t\n+Sum({<GrupoCC={'301','302'},CodContaN2={'421'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405114'}>}Valor)\n+Sum({<GrupoCC={'301','302'},CodContaN5={'405103'}>}Valor))\n+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'}>}Valor))\n+\n(Sum({<GrupoCC={'301'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030005','5111030007'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111000007','5111000012'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010026','5111020004'}>}Valor)+vTotaDespSemiFixaUsado),\n\n)))))))))))))))))))))))))))))",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0;(#.##0)",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Valor'&'/'&Ano",
+                "autoSort": true,
+                "cId": "WKqpCvX",
+                "numFormatFromTemplate": false,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "if(FlagItem='S',rgb(57, 172, 115))//rgb(25,46,84))",
+                  "qAttribute": true,
+                  "id": "cellBackgroundColor"
+                },
+                {
+                  "qExpression": "=IF( column(1)<0,LightRed(), \n if(FlagItem='S',White()))",
+                  "qAttribute": true,
+                  "id": "cellForegroundColor"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": []
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            4,
+            2,
+            3
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "columnOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "columnWidths": [
+            34,
+            366,
+            -1,
+            132,
+            156
+          ],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "Demonstrativo de Resultado Navesa",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "totals": {
+          "show": false,
+          "position": "noTotals",
+          "label": "Totais"
+        },
+        "scrolling": {
+          "keepFirstColumnInView": false
+        },
+        "multiline": {
+          "wrapTextInHeaders": true,
+          "wrapTextInCells": true
+        },
+        "visualization": "table"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "zHk",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Novos",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "7d2b8bac-5eda-4dd9-bb38-0efd8068b265",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "mxzDWk",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Peças",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "6a478988-10cd-4116-9f88-203bf70fe036",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "pEPwmQ",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Serviços",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "024b8a56-f91c-4fb5-a462-1671989b1179",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "PucXFp",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "ADM",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "17b14502-752e-4970-9f4a-a1b58245c534",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "BdaFnB",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "SUMARIO",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "left",
+          "isButtonMultiLine": false,
+          "buttonIcon": "",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "5bf0362e-82de-4b6c-a726-f201dbe05f33",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": false,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "template": "swr-sense-navigation",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png"
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

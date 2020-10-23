@@ -1,0 +1,59 @@
+///$tab 2.1 Visoes Gerenciais
+TabVisoesGerenciais:
+LOAD
+    "Visão Demonstrativo",
+    ItemDemonstrativo,
+    FlagItem,
+    CodItemNovos
+FROM [lib://1.resources/COMPOSITE QLIKSENSE.xlsx]
+(ooxml, embedded labels, table is NOVOS);
+Concatenate
+LOAD
+    "Visão Demonstrativo",
+    ItemDemonstrativo,
+    FlagItem,
+    CodItemSemiNovos
+FROM [lib://1.resources/COMPOSITE QLIKSENSE.xlsx]
+(ooxml, embedded labels, table is SEMINOVOS);
+Concatenate
+LOAD
+    "Visão Demonstrativo",
+    ItemDemonstrativo,
+    FlagItem,
+    CodItemPecas
+FROM [lib://1.resources/COMPOSITE QLIKSENSE.xlsx]
+(ooxml, embedded labels, table is PEÇAS);
+Concatenate
+LOAD
+    "Visão Demonstrativo",
+    ItemDemonstrativo,
+    FlagItem,
+    CodItemServicos
+FROM [lib://1.resources/COMPOSITE QLIKSENSE.xlsx]
+(ooxml, embedded labels, table is SERVIÇOS);
+Concatenate
+LOAD
+    "Visão Demonstrativo",
+    ItemDemonstrativo,
+    FlagItem,
+    F4,
+    CodItemDespesasADM
+FROM [lib://1.resources/COMPOSITE QLIKSENSE.xlsx]
+(ooxml, embedded labels, table is [DESPESAS ADM]);
+Concatenate
+LOAD
+    "Visão Demonstrativo",
+    ItemDemonstrativo,
+    FlagItem,
+    CodItemSumario
+FROM [lib://1.resources/COMPOSITE QLIKSENSE.xlsx]
+(ooxml, embedded labels, table is [SUMARIO DE LUCROS]);
+
+Concatenate
+LOAD
+    "Visão Demonstrativo",
+    ItemDemonstrativo,
+    FlagItem,
+    CodItemSumario as CodItemSumarioResultado
+FROM [lib://1.resources/COMPOSITE C.CUSTO_ QLIKSENSE.xlsx]
+(ooxml, embedded labels, table is [RESUMO RESULTADO]);

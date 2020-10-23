@@ -1,0 +1,50 @@
+///$tab 3.Lançamento
+Lancamentos:
+LOAD
+    GrupoPC,
+    CodContaContabil,
+    if(GrupoCC='201','601',
+     if(Histórico='NF DEBITO: 3012 - MUNICIPIO DE GOIANIA','502',GrupoCC)) as GrupoCC,
+    GrupoConta,
+    CodEmpresa, 
+    COD_EXERCICIO_CONTABIL,
+    COD_LOTE_CONTABIL, 
+    COD_ORIGEM_LANC,
+    Autonumberhash128(CodEmpresa,COD_EXERCICIO_CONTABIL,COD_LOTE_CONTABIL) 	as %LinkLote,
+    (CodEmpresa&'-'&Monthname(Data)) 										as %LinkVeic,
+    Valor,
+    Data,
+    year(Data)      														as Ano,
+    Month(Data)     														as Mes,
+    Monthname(Data) 														as MesAno,
+    Monthname(Data,-3)														as Ultimos3Meses,
+    Monthname(Data,-2)														as Ultimos2Meses,
+    Monthname(Data,-1)														as Ultimos1Meses,
+    Day(Data)       														as Dia,
+    Histórico,
+    Usuário,
+    CodOperação,
+    CodCliente,
+    Operação,
+    OrigemLançamento
+FROM 
+	[lib://Transform/TabLancamentoContabil_Geral.qvd] (qvd)
+;  
+
+Exercicio:
+LOAD
+    COD_EXERCICIO_CONTABIL,
+    DESCRICAO as ExercicioContabil
+FROM [lib://Extract/TabExercicioContabil.qvd]
+(qvd);
+
+
+OrigemLancamentoContabil:
+LOAD
+    COD_ORIGEM_LANC,
+    if(COD_ORIGEM_LANC <> '34', 'Sem Encerramento',
+    if(COD_ORIGEM_LANC >= '0','Com Encerramento')) as FechExercicio,
+    DESCRICAO as OrigemLancamento,
+    CONTABIL as FlagOrigemLancamento
+FROM [lib://Transform/TabOrigemLancamento.qvd]
+(qvd);

@@ -1,0 +1,49 @@
+///$tab 4. Conta Contabil
+TabContaContabil:
+LOAD
+    GrupoConta,
+    Conta,
+    if(Mid(Conta,1,1)='7','Com Encerramento Exercicio','Sem Encerramento Exercicio') as Exercicio,
+    CodContaN1,
+    CodContaN2,
+    CodContaN3,
+    CodContaN4, 
+    CodContaN5, 
+    [Descrição Conta Contabil] 
+FROM [lib://Transform/TabContaContabil.qvd]
+(qvd);
+
+ 
+
+LOAD
+    CodContaN1,
+    Descn1
+FROM [lib://Transform/TabNivel1.qvd]
+(qvd);
+
+
+LOAD
+    CodContaN2,
+    Descn2
+FROM [lib://Transform/TabNivel2.qvd]
+(qvd);
+
+LOAD
+    CodContaN3,
+    Descn3
+FROM [lib://Transform/TabNivel3.qvd]
+(qvd);
+
+LOAD
+    CodContaN4,
+    Descn4
+FROM [lib://Transform/TabNivel4.qvd]
+(qvd);
+
+
+
+LOAD
+    CodContaN5,
+    Descn5
+FROM [lib://Transform/TabNivel5.qvd]
+(qvd);

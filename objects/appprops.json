@@ -1,0 +1,30 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "0627b164-38ee-4aec-9566-692e1585c9f4",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": {
+        "color": "#7db8da",
+        "index": 5
+      },
+      "sheetTitleGradientColor": {
+        "color": "#ffffff",
+        "index": 1
+      },
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/content/Default/Default Navesa.png"
+        }
+      },
+      "sheetLogoPosition": "right",
+      "rtl": false,
+      "theme": "card",
+      "defaultBookmarkId": "c3eac36c-fe48-42db-abb4-8032b0546aff"
+    },
+    "qChildren": []
+  }
+]

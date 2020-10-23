@@ -1,0 +1,1244 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 106,
+    "qTags": [
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 25,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 10,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 18,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 18,
+    "qTags": [
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "%LinkLote",
+    "qCardinal": 5029323,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "%LinkProduto",
+    "qCardinal": 248,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Propostas",
+      "Produtos"
+    ]
+  },
+  {
+    "qName": "%LinkProposta",
+    "qCardinal": 113989,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "VendasComercialVeiculos",
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "%LinkVeic",
+    "qCardinal": 3855,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Lancamentos",
+      "VendasComercialVeiculos"
+    ]
+  },
+  {
+    "qName": "Ano",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "AnoProposta",
+    "qCardinal": 8,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "AprovadoProposta",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "CHASSI_PROPOSTA",
+    "qCardinal": 98432,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "COD_EMPRESA_PROPOSTA",
+    "qCardinal": 32,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "COD_EXERCICIO_CONTABIL",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Lancamentos",
+      "Exercicio"
+    ]
+  },
+  {
+    "qName": "COD_LOTE_CONTABIL",
+    "qCardinal": 1430487,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "COD_MARCA",
+    "qCardinal": 113,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Produtos",
+      "Marca"
+    ]
+  },
+  {
+    "qName": "COD_ORIGEM_LANC",
+    "qCardinal": 66,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Lancamentos",
+      "OrigemLancamentoContabil"
+    ]
+  },
+  {
+    "qName": "COD_PRODUTO",
+    "qCardinal": 239,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Produtos"
+    ]
+  },
+  {
+    "qName": "Calculado",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "Centro Custo Pai",
+    "qCardinal": 6,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabCentroCusto"
+    ]
+  },
+  {
+    "qName": "Cod Centro de Custo",
+    "qCardinal": 42,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabCentroCusto"
+    ]
+  },
+  {
+    "qName": "CodCliente",
+    "qCardinal": 215302,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "CodClienteProposta",
+    "qCardinal": 78878,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "CodContaContabil",
+    "qCardinal": 1788,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabVisão",
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "CodContaN1",
+    "qCardinal": 8,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabContaContabil",
+      "TabNivel1"
+    ]
+  },
+  {
+    "qName": "CodContaN2",
+    "qCardinal": 32,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabContaContabil",
+      "TabNivel2"
+    ]
+  },
+  {
+    "qName": "CodContaN3",
+    "qCardinal": 145,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabContaContabil",
+      "TabNivel3"
+    ]
+  },
+  {
+    "qName": "CodContaN4",
+    "qCardinal": 223,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabContaContabil",
+      "TabNivel4"
+    ]
+  },
+  {
+    "qName": "CodContaN5",
+    "qCardinal": 529,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabContaContabil",
+      "TabNivel5"
+    ]
+  },
+  {
+    "qName": "CodEmpresa",
+    "qCardinal": 63,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabEmpresa",
+      "TabGrupoEmpresas",
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "CodEmpresaProposta",
+    "qCardinal": 32,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "CodItemDespesasADM",
+    "qCardinal": 21,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "CodItemNovos",
+    "qCardinal": 34,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "CodItemPecas",
+    "qCardinal": 35,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "CodItemSemiNovos",
+    "qCardinal": 29,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "CodItemServicos",
+    "qCardinal": 32,
+    "qTags": [],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "CodItemSumario",
+    "qCardinal": 10,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "CodItemSumarioResultado",
+    "qCardinal": 34,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "CodOperação",
+    "qCardinal": 58,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "CodProposta",
+    "qCardinal": 113989,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "VendasComercialVeiculos"
+    ]
+  },
+  {
+    "qName": "CodPropostaProposta",
+    "qCardinal": 98432,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "CodPropostaVeiculo",
+    "qCardinal": 98432,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "Conta",
+    "qCardinal": 2757,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabContaContabil"
+    ]
+  },
+  {
+    "qName": "DESCRICAO_PRODUTO",
+    "qCardinal": 238,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Produtos"
+    ]
+  },
+  {
+    "qName": "Data",
+    "qCardinal": 2469,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "DataCancelamentoProposta",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "Descn1",
+    "qCardinal": 8,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabNivel1"
+    ]
+  },
+  {
+    "qName": "Descn2",
+    "qCardinal": 23,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabNivel2"
+    ]
+  },
+  {
+    "qName": "Descn3",
+    "qCardinal": 117,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabNivel3"
+    ]
+  },
+  {
+    "qName": "Descn4",
+    "qCardinal": 151,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabNivel4"
+    ]
+  },
+  {
+    "qName": "Descn5",
+    "qCardinal": 377,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabNivel5"
+    ]
+  },
+  {
+    "qName": "Descrição Centro Custo",
+    "qCardinal": 43,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabCentroCusto"
+    ]
+  },
+  {
+    "qName": "Descrição Conta Contabil",
+    "qCardinal": 2761,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabContaContabil"
+    ]
+  },
+  {
+    "qName": "Dia",
+    "qCardinal": 31,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "EmissãoProposta",
+    "qCardinal": 98367,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "Exercicio",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabContaContabil"
+    ]
+  },
+  {
+    "qName": "ExercicioContabil",
+    "qCardinal": 13,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Exercicio"
+    ]
+  },
+  {
+    "qName": "F4",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "FechExercicio",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "OrigemLancamentoContabil"
+    ]
+  },
+  {
+    "qName": "FlagItem",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "FlagOrigemLancamento",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "OrigemLancamentoContabil"
+    ]
+  },
+  {
+    "qName": "Grupo Empresa",
+    "qCardinal": 11,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabGrupoEmpresas"
+    ]
+  },
+  {
+    "qName": "GrupoCC",
+    "qCardinal": 44,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Lancamentos",
+      "TabCentroCusto"
+    ]
+  },
+  {
+    "qName": "GrupoConta",
+    "qCardinal": 2758,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Lancamentos",
+      "TabContaContabil"
+    ]
+  },
+  {
+    "qName": "GrupoMarca",
+    "qCardinal": 238,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Produtos"
+    ]
+  },
+  {
+    "qName": "GrupoPC",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "Histórico",
+    "qCardinal": 8473807,
+    "qTags": [],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "IdEsqueleto",
+    "qCardinal": 324,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "IdVisao",
+    "qCardinal": 261,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "InternetProposta",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "Item",
+    "qCardinal": 288,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "ItemDemonstrativo",
+    "qCardinal": 118,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "MARCA",
+    "qCardinal": 113,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Marca"
+    ]
+  },
+  {
+    "qName": "Mes",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "MesAno",
+    "qCardinal": 84,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "ModeloProposta",
+    "qCardinal": 6448,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "Multiplic",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "MêsAnoProposta",
+    "qCardinal": 94,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "MêsProposta",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "NOVO_USADO",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Produtos"
+    ]
+  },
+  {
+    "qName": "Nivel",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "NomeClienteProposta",
+    "qCardinal": 78922,
+    "qTags": [],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "NomeEmpresa",
+    "qCardinal": 63,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabEmpresa"
+    ]
+  },
+  {
+    "qName": "NomeReduzidoVendProposta",
+    "qCardinal": 737,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "ObsProposta",
+    "qCardinal": 65,
+    "qTags": [],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "Operação",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "OrigemLancamento",
+    "qCardinal": 63,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "OrigemLancamentoContabil"
+    ]
+  },
+  {
+    "qName": "OrigemLançamento",
+    "qCardinal": 2,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "QuemCancelouProposta",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "RazãoSocial",
+    "qCardinal": 15,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabGrupoEmpresas"
+    ]
+  },
+  {
+    "qName": "Seq",
+    "qCardinal": 323,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "StatusdaProposta",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "TelefoneClienteProposta",
+    "qCardinal": 73899,
+    "qTags": [],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "TipoEndProposta",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "TipoSaldo",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "TipoVeiculo",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "VendasComercialVeiculos"
+    ]
+  },
+  {
+    "qName": "UPPER_DESC_PRODUTO",
+    "qCardinal": 227,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Produtos"
+    ]
+  },
+  {
+    "qName": "Ultimos1Meses",
+    "qCardinal": 84,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "Ultimos2Meses",
+    "qCardinal": 84,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "Ultimos3Meses",
+    "qCardinal": 84,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "Usuário",
+    "qCardinal": 71,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "Valor",
+    "qCardinal": 1352509,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Lancamentos"
+    ]
+  },
+  {
+    "qName": "ValorProposta",
+    "qCardinal": 13609,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Propostas"
+    ]
+  },
+  {
+    "qName": "ValorVendaVeiculos",
+    "qCardinal": 47615,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VendasComercialVeiculos"
+    ]
+  },
+  {
+    "qName": "Veículo_Modelo",
+    "qCardinal": 232,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Produtos"
+    ]
+  },
+  {
+    "qName": "Visão",
+    "qCardinal": 5,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "Visão Demonstrativo",
+    "qCardinal": 7,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabVisoesGerenciais"
+    ]
+  },
+  {
+    "qName": "VisãoB",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "VisãoD",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  },
+  {
+    "qName": "VisãoF",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TabVisão"
+    ]
+  }
+]

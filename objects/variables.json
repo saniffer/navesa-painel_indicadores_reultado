@@ -1,0 +1,808 @@
+[
+  {
+    "qInfo": {
+      "qId": "02c686cb-0a90-4946-adf2-c4bc2585f175",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespIndAdmAnoAtu",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'}>}Valor)-\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'}>}Valor))+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'}>}Valor)))\n+\n((Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'41','42','51','91','92','93','96'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN4={'94101'}>}Valor))\n-\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'}>}Valor)-\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'}>}Valor))+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'}>}Valor))))\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "03c2587f-451c-4240-8c89-97fb7bd68bfd",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDespSemiFixaAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030003'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'206'},Conta={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010001','5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010027','5111010032'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111050014'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nvLinha31AnoAnt)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "04ccc764-4a0c-4d39-b5c3-5fd2e1a01742",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotaDespSemiFixaUsado",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030003'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030002'}>}Valor)+\nSum({<GrupoCC={'301'},CodContaContabil={'5111030002'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111030014','5111030015'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111030020'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010001','5111000006'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010027','5111010032'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111030021'}>}Valor)+\nsum({<GrupoCC={'301','302'},CodContaN5={'511106'}>}Valor)+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111050020'}>}Valor)+\nvLinha26",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "06640fe8-e4cf-44b3-a7de-873155b37373",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vVendas",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN3={'401'}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "079cf5dd-accf-4cc9-9b95-d237fc59743c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vEstornoResulFin",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum(if(Match(CodContaN5,\n//'411103',\n'511105',\n'93101',\n'93102',\n'93103',\n'93105',\n'93106',\n'94101',\n'94102',\n'94103',\n'94105',\n'94106')and Match([Centro Custo Pai],'100-ADMINISTRACAO','400-PECAS','500-SERVICOS','600-ACESSORIOS'),Valor))\n+\nsum(if(Match(CodContaN5,\n'411103'\n)and Match([Centro Custo Pai],'100-ADMINISTRACAO'),Valor)))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "0f21e0d6-9c46-46f2-901f-9f79f4f08486",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLinha26",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'301','302'},CodContaN5={'511100','511101','511102','511103','511105','511107'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaN4={'5112'}>}Valor)+\nSum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN4={'91106'}>}Valor)\n+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5014010006'}>}Valor)\n\n)\n-\n(Sum({<GrupoCC={'301','302'},CodContaContabil={'5111050020','5111030002','5111030003','5111030005','5111030014','5111030015','5111030020','5111030021','5111020004','5111000006','511100007','5111000012','5111010001','5111010026','5111010027','5111010032'}>}Valor)\n)\n\n\n\n/*\nif(CodItemSemiNovos='15','',\nif(CodItemSemiNovos='16',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030003'}>}Valor),\nif(CodItemSemiNovos='17',Sum({<GrupoCC={'302'},CodContaContabil={'5111030002'}>}Valor),\nif(CodItemSemiNovos='18',Sum({<GrupoCC={'301'},CodContaContabil={'5111030002'}>}Valor),\nif(CodItemSemiNovos='19',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030014','5111030015'}>}Valor),\nif(CodItemSemiNovos='20',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030020'}>}Valor),\nif(CodItemSemiNovos='21',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010001','5111000006'}>}Valor),\nif(CodItemSemiNovos='22',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111010027','5111010032'}>}Valor),\nif(CodItemSemiNovos='23',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030021'}>}Valor),\nif(CodItemSemiNovos='24',Sum({<GrupoCC={'301','302'},CodContaN5={'511106'}>}Valor)+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'}>}Valor),\nif(CodItemSemiNovos='25',Sum({<GrupoCC={'301','302'},CodContaContabil={'5111050020'}>}Valor),\nif(CodItemSemiNovos='26',vLinha26,\n\n\"511100 - 5111000006 - 511100007 - 5111000012\n511101 - 5111010001 - 5111010026 - 5111010027 - 5111010032\n511102 - 5111020004\n511103 - 5111030002 - 5111030003 - 5111030005 - 5111030014 - 5111030015 - 5111030020 - 5111030021\n511105 - 5111050020\n511107\n5112\n91106\"\n\n\n*/",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "10664f2d-50a4-4900-b6cc-133b6e65af25",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vVendaTotalServiçosAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN4={'4051'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405101'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405104'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405105'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405111'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405103','405114','405108','405109'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405107'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "14aca418-4d18-47d3-89ad-8c63ba6a3ed0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vResultadoAdmAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=sum({<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN3,\n'405',\n'411',\n'421',\n'501',\n'511',\n'91101',\n'91102',\n'91103',\n'91104',\n'91105',\n'91106',\n'92101',\n'92102',\n'92106',\n'92107',\n'92108',\n'92111',\n'92112',\n'93101',\n'93102',\n'93103',\n'93105',\n'93106',\n'94101',\n'94102',\n'94103',\n'94105',\n'94106',\n'96101')\nand  Match([Centro Custo Pai],'100-ADMINISTRACAO'),Valor))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "16862a0f-83c9-425e-8836-17966660d056",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTrimestre",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "1710b4ca-4c66-4ae2-88e7-539b311421f5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vVendasTotalServiçosAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN4={'4051'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405101'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405104'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405105'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405111'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405103','405114','405108','405109'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405107'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "201ec313-cab7-4ca4-a992-3da6e6133981",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalVendasPecas",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'401','402','601'},CodContaN5={'404101','404102','404103','404104','404105','404106','404107','404108','404109','404110','404111','404113'}>}Valor)\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={ '4051'}>}Valor)//vendas total\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={'4111'}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "21349385-876a-46f8-831f-8aa7147e9b30",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoAtu",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Max(Ano))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "26844fc8-be38-4a1a-bfe5-e233d76dae17",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespIndADM",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)-\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)))\n+\n((Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'41','42','51','91','92','93','96'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN4={'94101'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n-\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030002','5111030003','5111030004','5111030005','5111030007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030001'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030014','5111030015','5111030009','5111030010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010023','5111010024','5111010025'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)-\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'4211010001','5113010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'91103',' 91104'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511199'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'911102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511107'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000006','5111010004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010002','5111010003','5111010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010006','5111010041'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111010016'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111000014','5111010027','5111010032','5112010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaContabil={'5112010003','5112010007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n-Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'92112'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\n(Sum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'411103'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN5={'511105'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<[Centro Custo Pai]={'100-ADMINISTRACAO'},CodContaN2={'93','94'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "2824fcf5-7ddf-4f3d-9890-2a280ae3bfc5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMes-1",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=monthname(max(Ultimos1Meses))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "32ecf4b6-6df2-4e7b-a229-f53528c4e07d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTeste",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "35d45c7d-4e11-4001-9489-796401846849",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespSemiFixa",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030003'}>}Valor)+\nSum({<GrupoCC={'206'},Conta={'5111030002'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030002'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030014','5111030015'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030020'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010001','5111000006'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010027','5111010032'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030021'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'511106'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111050014'}>}Valor)+\nvLinha31\n)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "37747a03-13ed-4056-a8ac-89d0035890c7",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoAnt-2",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Max(Ano)-2)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "3cda382d-0a5e-4e30-82aa-36e5ee44967f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespesasSemiFixasServiços",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'502','503'},CodContaContabil={'5111030005'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030002','5111030003','5111030004'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030014','5111030015'}>}Valor)+\nSum({<GrupoCC={'502','503'},CodContaContabil={'5111030009','5111030010'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030020'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000006'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050025'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010027'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030021'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000012','5111020004'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010010'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050010'}>}Valor)+\n\n((((Sum({<GrupoCC={'502','503'},CodContaContabil={'5111030005'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030002','5111030003','5111030004'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030014','5111030015'}>}Valor)+\nSum({<GrupoCC={'502','503'},CodContaContabil={'5111030009','5111030010'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030020'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000006'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050025'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010027'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030021'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000012','5111020004'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010010'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050010'}>}Valor))\n-Sum({<GrupoCC={'501','502','503','504','505'},CodContaN2={'51'}>}Valor))\n-Sum({<GrupoCC={'501','502','503','504','505'},CodContaN2={'92'}>}Valor))*-1)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "454d5c9d-0c8b-4121-9436-f278a83698b9",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespSemiFixaPeçasAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'401'},CodContaContabil={'5111030003'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'402','601'},CodContaContabil={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401'},CodContaContabil={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402'},CodContaContabil={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402'},CodContaContabil={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402'},CodContaContabil={'5111010001','5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n(Sum({<GrupoCC={'401','402','601'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+Sum({<GrupoCC={'401','402','601'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111010027',' 5111010032',' 5111080001',' 5112010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111000012 ',' 5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111010010',' 5111010021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={' 5111050014'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={' 5111050022'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n+\n(Sum({<GrupoCC={'401','402','601'},[OrigemLançamento]={'Gerencial'},CodContaN2={'91','97'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaN5={'511100',' 511101', '511102','511103',' 511105',' 511107',' 511108','511201',' 511301'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111000006','5111000012','5111010001','5111010010 ',' 5111010021 ','5111010032 ',' 5111010027','5111020004 ',' 5111030002 ',' 5111030003 ',' 5111030005 ',' 5111030007 ',' 5111030014 ',' 5111030015 ',\n' 5111030020',' 5111050014',' 5111050022',' 5111080001',' 5112010005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "490d74a2-659a-4eae-9bb3-dc5d665141e0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLucroBrutoServicos",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum( if(Match(CodContaN5,\n'501401',\n'501404',\n'501501',\n'501604')and  Match([Centro Custo Pai],'500-SERVICOS'),Valor))\n+\nsum( if(Match(CodContaN4,\n'4041','4051')and  Match([Centro Custo Pai],'500-SERVICOS'),Valor))\n)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "4a064d98-2092-4cfd-940c-6cbe7220cf24",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMesAtual",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=monthname(Today())",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "4c5c22b0-8124-4842-b523-2e9c8d875831",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vVendasAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN3={'401'},ExercicioContabil={$(vAnoAnt)}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "50c3214d-d7c1-4c80-a46d-fe8d742fa9d5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLucroBrutoServicosAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum( {<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN5,\n'501401',\n'501404',\n'501501',\n'501604')and  Match([Centro Custo Pai],'500-SERVICOS'),Valor))\n+\nsum( {<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN4,\n'4041','4051')and  Match([Centro Custo Pai],'500-SERVICOS'),Valor))\n)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "512c51e2-e8f3-42a3-9bb6-d823405534e3",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLucroBrutoPecasAcessorios",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum( if(Match(CodContaN5,\n'501401',\n'501404',\n'501501',\n'501604')and  Match([Centro Custo Pai],'400-PECAS','600-ACESSORIOS'),Valor))\n+\nsum( if(Match(CodContaN4,\n'4041','4051')and  Match([Centro Custo Pai],'400-PECAS','600-ACESSORIOS'),Valor))\n)\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "590eecb7-f87d-4618-a081-1485cdb818e2",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vVendasUsados",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'301',302},CodContaN3={'403'}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "5dcc332f-f236-4f14-9120-cae143d8665c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vUnidadesVendidasAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=count(distinct {<TipoVeiculo={'Novo'},ExercicioContabil={$(vAnoAnt)}>} CodProposta)+count(distinct {<TipoVeiculo={'*Direta*'},ExercicioContabil={$(vAnoAnt)}>} CodProposta)\n\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "6003d9d5-c509-4945-9efd-f01b41a5a870",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vSumarioAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "68372cf2-3a4d-41c6-b070-d49d4f19587c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMes-2",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=monthname(max(Ultimos2Meses))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "7184d797-8df7-4833-86b9-39a93992cf8d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalLucroBruto",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=((vVendas+vLucroBruto)+Sum({<GrupoCC={'205'},CodContaN5={'405115'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'405113'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaContabil={'5011990002'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'405114'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN4={'4111'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95106','95107'}>}Valor)\n+Sum({<GrupoCC={'206'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'}>}Valor)\n)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "72f62afb-9d32-4b9f-8d68-0bdf52572397",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespSemiFixaPeças",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'401'},CodContaContabil={'5111030003'}>}Valor)+\nSum({<GrupoCC={'402','601'},CodContaContabil={'5111030002'}>}Valor)+\nSum({<GrupoCC={'401'},CodContaContabil={'5111030002'}>}Valor)+\nSum({<GrupoCC={'401','402'},CodContaContabil={'5111030014','5111030015'}>}Valor)+\nSum({<GrupoCC={'401','402'},CodContaContabil={'5111030020'}>}Valor)+\nSum({<GrupoCC={'401','402'},CodContaContabil={'5111010001','5111000006'}>}Valor)+\n(Sum({<GrupoCC={'401','402','601'},CodContaN5={'511106'}>}Valor)+Sum({<GrupoCC={'401','402','601'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'}>}Valor))+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111010027',' 5111010032',' 5111080001',' 5112010005'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111030021'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111000012 ',' 5111020004'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111010010',' 5111010021'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={' 5111050014'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={' 5111050022'}>}Valor)+\n+\n(Sum({<GrupoCC={'401','402','601'},[OrigemLançamento]={'Gerencial'},CodContaN2={'91','97'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaN5={'511100',' 511101', '511102','511103',' 511105',' 511107',' 511108','511201',' 511301'}>}Valor)+\nSum({<GrupoCC={'401','402','601'},CodContaContabil={'5111000006','5111000012','5111010001','5111010010 ',' 5111010021 ','5111010032 ',' 5111010027','5111020004 ',' 5111030002 ',' 5111030003 ',' 5111030005 ',' 5111030007 ',' 5111030014 ',' 5111030015 ',\n' 5111030020',' 5111050014',' 5111050022',' 5111080001',' 5112010005'}>}Valor)))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "755e94cb-8d2c-4e2e-8e50-0dd85d09304a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vNível",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1"
+  },
+  {
+    "qInfo": {
+      "qId": "7fc21238-b161-4cf2-ba18-0f653cb4995b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLinha31",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=((Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN2={'51'}>}Valor)\n+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaContabil={'5014010006'}>}Valor)\n+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN2={'92'}>}Valor))\n-\n((vTotalDespesasVariaveis+\n(Sum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030003'}>}Valor)+\nSum({<GrupoCC={'206'},Conta={'5111030002'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030002'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030014','5111030015'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030020'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010001','5111000006'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010027','5111010032'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030021'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'511106'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111050014'}>}Valor)))))\n+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN4={'95102'}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "85b6f9d5-1959-437e-adad-3614f7521b2a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLinha26AnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'301','302'},CodContaN5={'511100','511101','511102','511103','511105','511107'},ExercicioContabil={$(vAnoAnt)}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaN4={'5112'},ExercicioContabil={$(vAnoAnt)}>}Valor)+\nSum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN4={'91106'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5014010006'}>}Valor)\n\n)\n-\n(Sum({<GrupoCC={'301','302'},CodContaContabil={'5111050020','5111030002','5111030003','5111030005','5111030014','5111030015','5111030020','5111030021','5111020004','5111000006','511100007','5111000012','5111010001','5111010026','5111010027','5111010032'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "89c6c4f4-4dd6-49fd-a482-65209bdf83c0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Max(ExercicioContabil)-1)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "9479b0ca-9cca-4482-8943-2cde00dd84a1",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespesasVariaveis",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030005'}>}Valor)\n+Sum({<GrupoCC={'206'},Conta={'5111030005'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111000007'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'95102'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111000012','5111000010','5111020004'}>}Valor))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "9ee0754f-7e73-4c8e-8527-082d158f9b4f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLinha31AnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=((Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN2={'51'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaContabil={'5014010006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n-\n((vTotalDespesasVariaveisAnoAnt+\n(Sum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030003'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'206'},Conta={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010001','5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010027','5111010032'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111050014'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)))))\n+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN4={'95102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n\n/*\n=\n((Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'511100','511101','511102','511103','511105','511106','511107','511199'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n+sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN4={'5112'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n-\n(vTotalDespesasVariaveisAnoAnt+\nSum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030003'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'206'},Conta={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010001','5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111010027','5111010032'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111050014'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n*/",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ad3409cc-e0aa-4a77-acd0-6c4a67f86e46",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vEstornoResulFinAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum({<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN5,\n//'411103',\n'511105',\n'93101',\n'93102',\n'93103',\n'93105',\n'93106',\n'94101',\n'94102',\n'94103',\n'94105',\n'94106')and Match([Centro Custo Pai],'100-ADMINISTRACAO','400-PECAS','500-SERVICOS','600-ACESSORIOS'),Valor))\n+\nsum({<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN5,\n'411103'\n)and Match([Centro Custo Pai],'100-ADMINISTRACAO'),Valor)))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ae5bd2d7-a66b-4a21-90d9-21ae65406ccd",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLucroBrutoAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN4={'5011'},CodContaContabil-={'5011990002'},ExercicioContabil={$(vAnoAnt)}\n>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "afd0fa79-2625-43cd-90d4-3182e43ffca5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLucroBrutoPecasAcessoriosAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum( {<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN5,\n'501401',\n'501404',\n'501501',\n'501604')and  Match([Centro Custo Pai],'400-PECAS','600-ACESSORIOS'),Valor))\n+\nsum( {<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN4,\n'4041','4051')and  Match([Centro Custo Pai],'400-PECAS','600-ACESSORIOS'),Valor))\n)\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b1fac9e8-f841-4be5-8a45-9737e1e9a7d7",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotaDespSemiFixaUsadoAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'301','302'},CodContaContabil={'5111030003'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'302'},CodContaContabil={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301'},CodContaContabil={'5111030002'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010001','5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111010027','5111010032'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nsum({<GrupoCC={'301','302'},CodContaN5={'511106'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+Sum({<GrupoCC={'301','302'},[OrigemLançamento]={'Gerencial'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'301','302'},CodContaContabil={'5111050020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nvLinha26AnoAnt",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b6eab2e1-9fc2-4dba-9c24-d35a1f9a863b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vVendasTotalServiços",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN4={'4051'}>}Valor)\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405101'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405104'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405105'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405111'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405103','405114','405108','405109'}>}Valor)+\n//Sum({<GrupoCC={'501','502','503','504','505'},CodContaN5={'405107'}>}Valor)\n)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "bd7538fb-f136-426b-9960-ce585c67b802",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalLucroBrutoAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=((vVendasAnoAnt+vLucroBrutoAnoAnt)+Sum({<GrupoCC={'205'},CodContaN5={'405115'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'405113'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaContabil={'5011990002'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'405114'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN4={'4111'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95106','95107'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n+Sum({<GrupoCC={'206'},[OrigemLançamento]={'Gerencial'},CodContaN5={'95101'},ExercicioContabil={$(vAnoAnt)}>}Valor)\n)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c2a85cdd-3a0e-46d2-8b15-496aa727ca2b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vVendasUsadosAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'301',302},CodContaN3={'403'},ExercicioContabil={$(vAnoAnt)}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "d1aa19ef-d10d-4250-8ed9-33a2cd5e6829",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespesasVariaveisAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(Sum({<GrupoCC={'202','203','204','205','207','208'},Conta={'5111030005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'206'},Conta={'5111030005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111000007'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN5={'95102'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'202','203','204','205','206','207','208'},Conta={'5111000012','5111000010','5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "de19c666-20ca-48f6-84b3-3327c5dc97f9",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDespesasPecasAcessorios",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum( if(Match(CodContaN5,\n'91106',\n'92101',\n'92102',\n'92103',\n'92104',\n'92105',\n'92106',\n'92107',\n'92108',\n'92109',\n'92111',\n'92112',\n'95102',\n'95103')and Match([Centro Custo Pai],'400-PECAS','500-SERVICOS','600-ACESSORIOS'),Valor))+\nsum( if(Match(CodContaN4,\n'5111','5112','5113'\n)and Match([Centro Custo Pai],'400-PECAS','500-SERVICOS','600-ACESSORIOS'),Valor)))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "df3c2671-ee8a-4dbf-b548-7cc084888fa5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMes-3",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=monthname(max(Ultimos3Meses))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "e15bb402-6ced-428d-a994-04500b514c7a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDespesasIndiretas",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum(if(Match(Conta,\n'5111010002',\n'5111010003',\n'5111010004',\n'5111010024',\n'5111010023',\n'5111010025',\n'5111010026',\n'5111020001',\n'5111020002',\n'5111020003',\n'5111020004',\n'5111020005',\n'5111020006',\n'5111060001',\n'5111060002',\n'5111060003',\n'5111060004',\n'5111060005',\n'5111060010',\n'5111060012',\n'5111060015',\n'5111070001',\n'5111070002',\n'5111070004',\n'5111070006',\n'5111070007',\n'5111070008',\n'5111070009',\n'5111070010',\n'5111070011',\n'5111070012',\n'5111070013',\n'5111070015',\n'5111070018',\n'5111070019',\n'5111070021',\n'5111070022',\n'5111070023',\n'5111070024',) and Match([Centro Custo Pai],'200-VEICULOS NOVOS','300-VEICULOS SEMI NOVOS'),Valor))+\nsum(if(Match(Conta,'91102',\n'91103',\n'91104',\n'91105',\n'91106',\n'92101',\n'92102',\n'92103',\n'92104',\n'92105',\n'92106',\n'92107',\n'92108',\n'92109',\n'92110',\n'92111',\n'92112',\n'92113') and Match([Centro Custo Pai],'200-VEICULOS NOVOS','300-VEICULOS SEMI NOVOS'),Valor))\n)\n\n\t\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "e95a7c5c-210d-4ad2-94e9-cf241204da20",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vResultadoAdm",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=sum(if(Match(CodContaN3,\n'405',\n'411',\n'421',\n'501',\n'511',\n'91101',\n'91102',\n'91103',\n'91104',\n'91105',\n'91106',\n'92101',\n'92102',\n'92106',\n'92107',\n'92108',\n'92111',\n'92112',\n'93101',\n'93102',\n'93103',\n'93105',\n'93106',\n'94101',\n'94102',\n'94103',\n'94105',\n'94106',\n'96101')\nand  Match([Centro Custo Pai],'100-ADMINISTRACAO'),Valor))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "eb7103ba-1221-4daa-aa95-c0fa60a234d7",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalVendasPecasAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'401','402','601'},CodContaN5={'404101','404102','404103','404104','404105','404106','404107','404108','404109','404110','404111','404113'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={ '4051'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)//vendas total\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={'4111'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "eb789783-7910-467d-abe5-f1e1d057331b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDespesasIndiretasAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum({<ExercicioContabil={$(vAnoAnt)}>}if(Match(Conta,\n'5111010002',\n'5111010003',\n'5111010004',\n'5111010024',\n'5111010023',\n'5111010025',\n'5111010026',\n'5111020001',\n'5111020002',\n'5111020003',\n'5111020004',\n'5111020005',\n'5111020006',\n'5111060001',\n'5111060002',\n'5111060003',\n'5111060004',\n'5111060005',\n'5111060010',\n'5111060012',\n'5111060015',\n'5111070001',\n'5111070002',\n'5111070004',\n'5111070006',\n'5111070007',\n'5111070008',\n'5111070009',\n'5111070010',\n'5111070011',\n'5111070012',\n'5111070013',\n'5111070015',\n'5111070018',\n'5111070019',\n'5111070021',\n'5111070022',\n'5111070023',\n'5111070024',) and Match([Centro Custo Pai],'200-VEICULOS NOVOS','300-VEICULOS SEMI NOVOS'),Valor))+\nsum({<ExercicioContabil={$(vAnoAnt)}>}if(Match(Conta,'91102',\n'91103',\n'91104',\n'91105',\n'91106',\n'92101',\n'92102',\n'92103',\n'92104',\n'92105',\n'92106',\n'92107',\n'92108',\n'92109',\n'92110',\n'92111',\n'92112',\n'92113') and Match([Centro Custo Pai],'200-VEICULOS NOVOS','300-VEICULOS SEMI NOVOS'),Valor))\n)\n\n\t\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ec7f79b0-fcae-4590-bb2a-8472805b8a76",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTotalDespesasSemiFixasServiçosAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'502','503'},CodContaContabil={'5111030005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030002','5111030003','5111030004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'502','503'},CodContaContabil={'5111030009','5111030010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050025'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010027'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000012',' 5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\n((((Sum({<GrupoCC={'502','503'},CodContaContabil={'5111030005'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030002','5111030003','5111030004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030014','5111030015'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'502','503'},CodContaContabil={'5111030009','5111030010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030020'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000006'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050025'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010027'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111030021'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111000012','5111020004'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111010010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor)+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaContabil={'5111050010'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n-Sum({<GrupoCC={'501','502','503','504','505'},CodContaN2={'51'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))\n-Sum({<GrupoCC={'501','502','503','504','505'},CodContaN2={'92'},ExercicioContabil={'$(vAnoAnt)'}>}Valor))*-1)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "f25d0228-52db-4601-a761-938c90027321",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLucroBruto",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN4={'5011'},CodContaContabil-={'5011990002'}>}Valor)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "f92fb8c2-28bb-4418-9e4c-5dcc37461794",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDespesasPecasAcessoriosAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=(sum( {<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN5,\n'91106',\n'92101',\n'92102',\n'92103',\n'92104',\n'92105',\n'92106',\n'92107',\n'92108',\n'92109',\n'92111',\n'92112',\n'95102',\n'95103')and Match([Centro Custo Pai],'400-PECAS','500-SERVICOS','600-ACESSORIOS'),Valor))+\nsum( {<ExercicioContabil={$(vAnoAnt)}>}if(Match(CodContaN4,\n'5111','5112','5113'\n)and Match([Centro Custo Pai],'400-PECAS','500-SERVICOS','600-ACESSORIOS'),Valor)))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "f9eef795-fe26-4f90-98c7-0b0a1079ee60",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vUnidadesVendidas",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=count(distinct {<TipoVeiculo={'Novo'}>} CodProposta)+count(distinct {<TipoVeiculo={'*Direta*'}>} CodProposta)",
+    "tags": []
+  }
+]

@@ -1,0 +1,10 @@
+///$tab 5.CCusto
+TabCentroCusto:
+LOAD
+  //  CCUSTO_ATIVO,
+    if(GrupoCC='201','601',GrupoCC) as GrupoCC,
+    "Descrição Centro Custo",
+    if("Cod Centro de Custo"='201','601',"Cod Centro de Custo") as "Cod Centro de Custo",
+    "Centro Custo Pai"
+FROM [lib://Transform/TabCentroCusto.qvd]
+(qvd);

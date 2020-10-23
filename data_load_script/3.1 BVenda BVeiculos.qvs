@@ -1,0 +1,74 @@
+///$tab 3.1 BVenda BVeiculos
+VendasComercialVeiculos:
+LOAD //Distinct ChassiCompleto,
+    
+    (CodEmpresaVendedora&'-'&MonthName(DataVenda)) as %LinkVeic,
+//    (Date(Floor(DataVenda))&ChassiCompleto) as %LinkVendaTroca,
+//     Date(Floor(DataVenda)) as DataVenda,
+//     Month(DataVenda) as Mês,
+//     day(DataVenda) as Dia,
+//     MonthName(DataVenda) as MêsAno,
+//     Year(DataVenda) as Ano,
+    CodProposta&'-'&ChassiResumido as  %LinkProposta,
+    NovoUsado as TipoVeiculo,
+    CodProposta,
+    IF(mid(Descrição,1,5)='Troco' or Descrição='Cortesia',-(Valor),
+    IF(mid(Descrição,1,5)<>'Troco' or Descrição<>'Cortesia',Valor)) as ValorVendaVeiculos
+   
+FROM [lib://Transform/VendasComercialVeiculos.qvd]
+(qvd);
+left Keep(VendasComercialVeiculos)
+Propostas:
+LOAD COD_PROPOSTA&'-'&CHASSI_RESUMIDO as %LinkProposta,
+    COD_PROPOSTA 		as CodPropostaProposta,
+    COD_PROPOSTA 		AS CodPropostaVeiculo,
+    CHASSI_RESUMIDO 	as CHASSI_PROPOSTA,
+    COD_EMPRESA			as COD_EMPRESA_PROPOSTA,
+    COD_MODELO   		as ModeloProposta,
+    COD_CLIENTE  		as CodClienteProposta,
+    COD_PRODUTO  		as  %LinkProduto,
+    VENDEDOR    		as NomeReduzidoVendProposta,
+    NOME_CLIENTE 		as NomeClienteProposta,
+    TELEFONE_CLIENTE 	as TelefoneClienteProposta,
+    APROVADO 			as AprovadoProposta,
+    VALOR_PROPOSTA		as ValorProposta,
+    if (STATUS_PROPOSTA='V','Faturada',
+    if (STATUS_PROPOSTA='A','A Faturar',
+    if (STATUS_PROPOSTA='C','Cancelada')))as StatusdaProposta,
+    TIPO_ENDERECO		as TipoEndProposta,
+    Date(EMISSAO)		as EmissãoProposta,
+    Month(EMISSAO)		as MêsProposta,
+    MonthName(EMISSAO)  as MêsAnoProposta,
+    Year(EMISSAO) 		as AnoProposta,
+    COD_EMPRESA 		as CodEmpresaProposta,
+    OBSERVACAO          as ObsProposta,
+    INTERNET			as InternetProposta,
+    QUEM_CANCELOU		as	QuemCancelouProposta,
+    DATA_CANCELAMENTO	as  DataCancelamentoProposta
+ 
+FROM [lib://Transform/Propostas.qvd]
+(qvd)where DATE(EMISSAO) >='01/01/2013'
+and COD_PRODUTO >0;
+Produtos:
+LOAD      COD_PRODUTO as %LinkProduto,
+    
+     COD_PRODUTO,
+     DESCRICAO_PRODUTO,
+    If(Match(DESCRICAO_PRODUTO,'FORD/RANGER CAB.SIMPLES','FORD/RANGER CAB.DUPLA'),'RANGER',
+    If(Match(DESCRICAO_PRODUTO,'FORD/ECOSPORT 1.5','FORD/ECOSPORT 2.0'),'ECOSPORT',
+    If(Match(DESCRICAO_PRODUTO,'FORD/FOCUS HATCH','FORD/FOCUS SEDAN'),'FOCUS',
+    If(Match(DESCRICAO_PRODUTO,'FORD/NEW FIESTA HATCH','FORD/NEW FIESTA SEDAN'),'NEW FIESTA',
+    If(Match(DESCRICAO_PRODUTO,'FORD/NOVO KA 1.0','FORD/NOVO KA 1.5'),'FORD KA',
+    If(Match(DESCRICAO_PRODUTO,'FORD/NOVO KA + 1.0','FORD/NOVO KA + 1.5'),'FORD KA+',DESCRICAO_PRODUTO)))))) AS Veículo_Modelo,
+    IF( Match(DESCRICAO_PRODUTO,'FORD'),'FORD',DESCRICAO_PRODUTO) AS GrupoMarca,
+    NOVO_USADO,
+    UPPER_DESC_PRODUTO,
+    COD_MARCA
+FROM [lib://Transform/Produtos.qvd]
+(qvd);
+Marca:
+LOAD
+    COD_MARCA,
+    DESCRICAO_MARCA as MARCA
+FROM [lib://Transform/Marca.qvd]
+(qvd);

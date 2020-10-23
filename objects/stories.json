@@ -1,0 +1,425 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "510d5e75-7fe1-4720-89b0-2b400169e63c",
+        "qType": "story"
+      },
+      "qMetaDef": {
+        "title": "Minha nova história",
+        "description": ""
+      },
+      "rank": -1,
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "qChildListDef": {
+        "qData": {
+          "title": "/title",
+          "rank": "/rank"
+        }
+      }
+    },
+    "qChildren": [
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "RWwyE",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": -1,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": []
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "jPhusS",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 0,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": []
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "GjyaJ",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 1,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "yZZjXns",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "520dc03a-e92d-4c84-8c63-2ff4959a4c83",
+              "ratio": false,
+              "position": {
+                "width": "94%",
+                "height": "98%",
+                "left": "1.5%",
+                "right": "4,5%",
+                "top": "0%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "e6f22f41-b795-492a-b320-c0abea9f8b46",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2020-05-26T19:21:26.238Z",
+                "title": "",
+                "sheetId": "520dc03a-e92d-4c84-8c63-2ff4959a4c83",
+                "selectionFields": [
+                  {
+                    "qTotal": 5,
+                    "qField": "Visão",
+                    "qSelectedCount": 1,
+                    "qSelected": "LUCRO OPERACIONAL",
+                    "qRangeInfo": [],
+                    "qSortIndex": 2,
+                    "qStateCounts": {
+                      "qLocked": 0,
+                      "qSelected": 1,
+                      "qOption": 0,
+                      "qDeselected": 0,
+                      "qAlternative": 4,
+                      "qExcluded": 0,
+                      "qSelectedExcluded": 0,
+                      "qLockedExcluded": 0
+                    },
+                    "qSelectedFieldSelectionInfo": [
+                      {
+                        "qName": "LUCRO OPERACIONAL",
+                        "qFieldSelectionMode": "NORMAL"
+                      }
+                    ],
+                    "qNotSelectedFieldSelectionInfo": [],
+                    "qSelectionThreshold": 6
+                  },
+                  {
+                    "qTotal": 72,
+                    "qField": "MesAno",
+                    "qSelectedCount": 4,
+                    "qSelected": "fev 2020, jan 2020, mar 2020, abr 2020",
+                    "qRangeInfo": [],
+                    "qSortIndex": 1,
+                    "qStateCounts": {
+                      "qLocked": 0,
+                      "qSelected": 4,
+                      "qOption": 0,
+                      "qDeselected": 0,
+                      "qAlternative": 8,
+                      "qExcluded": 60,
+                      "qSelectedExcluded": 0,
+                      "qLockedExcluded": 0
+                    },
+                    "qSelectedFieldSelectionInfo": [
+                      {
+                        "qName": "fev 2020",
+                        "qFieldSelectionMode": "NORMAL"
+                      },
+                      {
+                        "qName": "jan 2020",
+                        "qFieldSelectionMode": "NORMAL"
+                      },
+                      {
+                        "qName": "mar 2020",
+                        "qFieldSelectionMode": "NORMAL"
+                      },
+                      {
+                        "qName": "abr 2020",
+                        "qFieldSelectionMode": "NORMAL"
+                      }
+                    ],
+                    "qNotSelectedFieldSelectionInfo": [],
+                    "qSelectionThreshold": 6
+                  },
+                  {
+                    "qTotal": 13,
+                    "qField": "ExercicioContabil",
+                    "qSelectedCount": 1,
+                    "qSelected": "2020",
+                    "qRangeInfo": [],
+                    "qSortIndex": 0,
+                    "qStateCounts": {
+                      "qLocked": 0,
+                      "qSelected": 1,
+                      "qOption": 0,
+                      "qDeselected": 0,
+                      "qAlternative": 0,
+                      "qExcluded": 12,
+                      "qSelectedExcluded": 0,
+                      "qLockedExcluded": 0
+                    },
+                    "qSelectedFieldSelectionInfo": [
+                      {
+                        "qName": "2020",
+                        "qFieldSelectionMode": "NORMAL"
+                      }
+                    ],
+                    "qNotSelectedFieldSelectionInfo": [],
+                    "qSelectionThreshold": 6
+                  }
+                ],
+                "selectionsInStates": [
+                  {
+                    "stateName": "$",
+                    "qSelectionObject": {
+                      "qBackCount": 5,
+                      "qForwardCount": 0,
+                      "qSelections": [
+                        {
+                          "qTotal": 5,
+                          "qField": "Visão",
+                          "qSelectedCount": 1,
+                          "qSelected": "LUCRO OPERACIONAL",
+                          "qRangeInfo": [],
+                          "qSortIndex": 2,
+                          "qStateCounts": {
+                            "qLocked": 0,
+                            "qSelected": 1,
+                            "qOption": 0,
+                            "qDeselected": 0,
+                            "qAlternative": 4,
+                            "qExcluded": 0,
+                            "qSelectedExcluded": 0,
+                            "qLockedExcluded": 0
+                          },
+                          "qSelectedFieldSelectionInfo": [
+                            {
+                              "qName": "LUCRO OPERACIONAL",
+                              "qFieldSelectionMode": "NORMAL"
+                            }
+                          ],
+                          "qNotSelectedFieldSelectionInfo": [],
+                          "qSelectionThreshold": 6
+                        },
+                        {
+                          "qTotal": 72,
+                          "qField": "MesAno",
+                          "qSelectedCount": 4,
+                          "qSelected": "fev 2020, jan 2020, mar 2020, abr 2020",
+                          "qRangeInfo": [],
+                          "qSortIndex": 1,
+                          "qStateCounts": {
+                            "qLocked": 0,
+                            "qSelected": 4,
+                            "qOption": 0,
+                            "qDeselected": 0,
+                            "qAlternative": 8,
+                            "qExcluded": 60,
+                            "qSelectedExcluded": 0,
+                            "qLockedExcluded": 0
+                          },
+                          "qSelectedFieldSelectionInfo": [
+                            {
+                              "qName": "fev 2020",
+                              "qFieldSelectionMode": "NORMAL"
+                            },
+                            {
+                              "qName": "jan 2020",
+                              "qFieldSelectionMode": "NORMAL"
+                            },
+                            {
+                              "qName": "mar 2020",
+                              "qFieldSelectionMode": "NORMAL"
+                            },
+                            {
+                              "qName": "abr 2020",
+                              "qFieldSelectionMode": "NORMAL"
+                            }
+                          ],
+                          "qNotSelectedFieldSelectionInfo": [],
+                          "qSelectionThreshold": 6
+                        },
+                        {
+                          "qTotal": 13,
+                          "qField": "ExercicioContabil",
+                          "qSelectedCount": 1,
+                          "qSelected": "2020",
+                          "qRangeInfo": [],
+                          "qSortIndex": 0,
+                          "qStateCounts": {
+                            "qLocked": 0,
+                            "qSelected": 1,
+                            "qOption": 0,
+                            "qDeselected": 0,
+                            "qAlternative": 0,
+                            "qExcluded": 12,
+                            "qSelectedExcluded": 0,
+                            "qLockedExcluded": 0
+                          },
+                          "qSelectedFieldSelectionInfo": [
+                            {
+                              "qName": "2020",
+                              "qFieldSelectionMode": "NORMAL"
+                            }
+                          ],
+                          "qNotSelectedFieldSelectionInfo": [],
+                          "qSelectionThreshold": 6
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": [
+                      {
+                        "qDef": {
+                          "qName": "Visão",
+                          "qType": "PRESENT"
+                        },
+                        "qSelectInfo": {
+                          "qRangeLo": "NaN",
+                          "qRangeHi": "NaN",
+                          "qNumberFormat": {
+                            "qType": "U",
+                            "qnDec": 10,
+                            "qUseThou": 0
+                          },
+                          "qRangeInfo": [],
+                          "qContinuousRangeInfo": []
+                        },
+                        "qValues": [
+                          {
+                            "qText": "LUCRO OPERACIONAL",
+                            "qNumber": "NaN"
+                          }
+                        ],
+                        "qExcludedValues": []
+                      },
+                      {
+                        "qDef": {
+                          "qName": "MesAno",
+                          "qType": "PRESENT"
+                        },
+                        "qSelectInfo": {
+                          "qRangeLo": "NaN",
+                          "qRangeHi": "NaN",
+                          "qNumberFormat": {
+                            "qType": "U",
+                            "qnDec": 10,
+                            "qUseThou": 0
+                          },
+                          "qRangeInfo": [],
+                          "qContinuousRangeInfo": []
+                        },
+                        "qValues": [
+                          {
+                            "qIsNumeric": true,
+                            "qNumber": 43862
+                          },
+                          {
+                            "qIsNumeric": true,
+                            "qNumber": 43831
+                          },
+                          {
+                            "qIsNumeric": true,
+                            "qNumber": 43891
+                          },
+                          {
+                            "qIsNumeric": true,
+                            "qNumber": 43922
+                          }
+                        ],
+                        "qExcludedValues": []
+                      },
+                      {
+                        "qDef": {
+                          "qName": "ExercicioContabil",
+                          "qType": "PRESENT"
+                        },
+                        "qSelectInfo": {
+                          "qRangeLo": "NaN",
+                          "qRangeHi": "NaN",
+                          "qNumberFormat": {
+                            "qType": "U",
+                            "qnDec": 10,
+                            "qUseThou": 0
+                          },
+                          "qRangeInfo": [],
+                          "qContinuousRangeInfo": []
+                        },
+                        "qValues": [
+                          {
+                            "qIsNumeric": true,
+                            "qNumber": 2020
+                          }
+                        ],
+                        "qExcludedValues": []
+                      }
+                    ]
+                  }
+                ],
+                "qUtcModifyTime": 43977.67431712963,
+                "qVariableItems": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

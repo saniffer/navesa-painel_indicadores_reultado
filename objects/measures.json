@@ -1,0 +1,164 @@
+[
+  {
+    "qInfo": {
+      "qId": "LkmnQR",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Vendas Peças",
+      "qDef": "Sum({<GrupoCC={'401','402','601'},CodContaN5={'404101','404102','404103','404104','404105','404106','404107','404108','404109','404110','404111','404113'}>}Valor)\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={ '4051'}>}Valor)//vendas total\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={'4111'}>}Valor)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#f8981d",
+          "index": 9
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Vendas Peças",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "UmcgKt",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Total Venda",
+      "qDef": "Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN3={'401'}>}Valor)\r\n+\nSum({<GrupoCC={'301',302},CodContaN3={'403'}>}Valor)\n+\n(Sum({<GrupoCC={'401','402','601'},CodContaN5={'404101','404102','404103','404104','404105','404106','404107','404108','404109','404110','404111','404113'}>}Valor)\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={ '4051'}>}Valor)//vendas total\n+Sum({<GrupoCC={'401','402','601'},CodContaN4={'4111'}>}Valor))\n+\nSum({<GrupoCC={'501','502','503','504','505'},CodContaN4={'4051'}>}Valor)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#46c646",
+          "index": 2
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Total Venda",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "YatjS",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Soma Valor",
+      "qDef": "Sum(Valor)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "Soma Valor",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "fdc79984-df9c-472a-a654-9b14cc09fd7b",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Total Venda AnoAnterior",
+      "qDef": "Sum({<ExercicioContabil={'$(vAnoAnt)'},GrupoCC={'202','203','204','205','206','207','208'},CodContaN3={'401'}>}Valor)\r\n+\nSum({<ExercicioContabil={'$(vAnoAnt)'},GrupoCC={'301',302},CodContaN3={'403'}>}Valor)\n+\n(Sum({<ExercicioContabil={'$(vAnoAnt)'},GrupoCC={'401','402','601'},CodContaN5={'404101','404102','404103','404104','404105','404106','404107','404108','404109','404110','404111','404113'}>}Valor)\n+Sum({<ExercicioContabil={'$(vAnoAnt)'},GrupoCC={'401','402','601'},CodContaN4={ '4051'}>}Valor)//vendas total\n+Sum({<ExercicioContabil={'$(vAnoAnt)'},GrupoCC={'401','402','601'},CodContaN4={'4111'}>}Valor))\n+\nSum({<ExercicioContabil={'$(vAnoAnt)'},GrupoCC={'501','502','503','504','505'},CodContaN4={'4051'}>}Valor)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#46c646",
+          "index": 2
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Total Venda AnoAnterior",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "nGddFsJ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Vendas Usados",
+      "qDef": "Sum({<GrupoCC={'301',302},CodContaN3={'403'}>}Valor)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#b6d7ea",
+          "index": 4
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Vendas Usados",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "pEXnU",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Vendas Novos",
+      "qDef": "Sum({<GrupoCC={'202','203','204','205','206','207','208'},CodContaN3={'401'}>}Valor)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#7db8da",
+          "index": 5
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Vendas Novos",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "yqdjHBG",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Vendas Serviços",
+      "qDef": "Sum({<GrupoCC={'501','502','503','504','505'},CodContaN4={'4051'}>}Valor)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#7b7a78",
+          "index": 13
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Vendas Serviços",
+      "description": "",
+      "tags": []
+    }
+  }
+]

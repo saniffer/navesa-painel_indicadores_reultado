@@ -1,0 +1,2134 @@
+[
+  {
+    "qInfo": {
+      "qId": "zpctF",
+      "qType": "snapshot"
+    },
+    "qMetaDef": {
+      "title": "DRE",
+      "description": "",
+      "annotation": "ERRO"
+    },
+    "sheetId": "mRzsZv",
+    "creationDate": "2016-03-28T14:03:57.864Z",
+    "qSelectionInfo": {
+      "qInSelections": false,
+      "qMadeSelections": false
+    },
+    "qHyperCube": {
+      "qSize": {
+        "qcx": 3,
+        "qcy": 22
+      },
+      "qDimensionInfo": [
+        {
+          "qFallbackTitle": "Descn1",
+          "qApprMaxGlyphCount": 31,
+          "qCardinal": 9,
+          "qSortIndicator": "A",
+          "qGroupFallbackTitles": [
+            "Descn1"
+          ],
+          "qGroupPos": 0,
+          "qStateCounts": {
+            "qLocked": 0,
+            "qSelected": 3,
+            "qOption": 0,
+            "qDeselected": 0,
+            "qAlternative": 0,
+            "qExcluded": 6,
+            "qSelectedExcluded": 0,
+            "qLockedExcluded": 0
+          },
+          "qTags": [
+            "$text",
+            "$ascii"
+          ],
+          "qDimensionType": "D",
+          "qGrouping": "N",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 0,
+            "qUseThou": 0
+          },
+          "qIsAutoFormat": true,
+          "qGroupFieldDefs": [
+            "Descn1"
+          ],
+          "qMin": 0,
+          "qMax": 0,
+          "qAttrExprInfo": [],
+          "qAttrDimInfo": [],
+          "qCardinalities": {
+            "qCardinal": 0,
+            "qHypercubeCardinal": 0,
+            "qAllValuesCardinal": -1
+          },
+          "autoSort": true,
+          "cId": "RpWFE",
+          "othersLabel": "Outros"
+        },
+        {
+          "qFallbackTitle": "Descn2",
+          "qApprMaxGlyphCount": 36,
+          "qCardinal": 24,
+          "qSortIndicator": "A",
+          "qGroupFallbackTitles": [
+            "Descn2"
+          ],
+          "qGroupPos": 0,
+          "qStateCounts": {
+            "qLocked": 0,
+            "qSelected": 0,
+            "qOption": 10,
+            "qDeselected": 0,
+            "qAlternative": 0,
+            "qExcluded": 14,
+            "qSelectedExcluded": 0,
+            "qLockedExcluded": 0
+          },
+          "qTags": [
+            "$text"
+          ],
+          "qDimensionType": "D",
+          "qGrouping": "N",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 0,
+            "qUseThou": 0
+          },
+          "qIsAutoFormat": true,
+          "qGroupFieldDefs": [
+            "Descn2"
+          ],
+          "qMin": 0,
+          "qMax": 0,
+          "qAttrExprInfo": [],
+          "qAttrDimInfo": [],
+          "qCardinalities": {
+            "qCardinal": 0,
+            "qHypercubeCardinal": 0,
+            "qAllValuesCardinal": -1
+          },
+          "autoSort": true,
+          "cId": "MpJuw",
+          "othersLabel": "Outros"
+        },
+        {
+          "qFallbackTitle": "Descn3",
+          "qApprMaxGlyphCount": 43,
+          "qCardinal": 74,
+          "qSortIndicator": "A",
+          "qGroupFallbackTitles": [
+            "Descn3"
+          ],
+          "qGroupPos": 0,
+          "qStateCounts": {
+            "qLocked": 0,
+            "qSelected": 0,
+            "qOption": 25,
+            "qDeselected": 0,
+            "qAlternative": 0,
+            "qExcluded": 49,
+            "qSelectedExcluded": 0,
+            "qLockedExcluded": 0
+          },
+          "qTags": [
+            "$text"
+          ],
+          "qDimensionType": "D",
+          "qGrouping": "N",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 0,
+            "qUseThou": 0
+          },
+          "qIsAutoFormat": true,
+          "qGroupFieldDefs": [
+            "Descn3"
+          ],
+          "qMin": 0,
+          "qMax": 0,
+          "qAttrExprInfo": [],
+          "qAttrDimInfo": [],
+          "qCardinalities": {
+            "qCardinal": 0,
+            "qHypercubeCardinal": 0,
+            "qAllValuesCardinal": -1
+          },
+          "autoSort": true,
+          "cId": "kspXkQA",
+          "othersLabel": "Outros"
+        },
+        {
+          "qFallbackTitle": "Descn4",
+          "qApprMaxGlyphCount": 43,
+          "qCardinal": 106,
+          "qSortIndicator": "A",
+          "qGroupFallbackTitles": [
+            "Descn4"
+          ],
+          "qGroupPos": 0,
+          "qStateCounts": {
+            "qLocked": 0,
+            "qSelected": 0,
+            "qOption": 32,
+            "qDeselected": 0,
+            "qAlternative": 0,
+            "qExcluded": 74,
+            "qSelectedExcluded": 0,
+            "qLockedExcluded": 0
+          },
+          "qTags": [
+            "$text"
+          ],
+          "qDimensionType": "D",
+          "qGrouping": "N",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 0,
+            "qUseThou": 0
+          },
+          "qIsAutoFormat": true,
+          "qGroupFieldDefs": [
+            "Descn4"
+          ],
+          "qMin": 0,
+          "qMax": 0,
+          "qAttrExprInfo": [],
+          "qAttrDimInfo": [],
+          "qCardinalities": {
+            "qCardinal": 0,
+            "qHypercubeCardinal": 0,
+            "qAllValuesCardinal": -1
+          },
+          "autoSort": true,
+          "cId": "eknUMbj",
+          "othersLabel": "Outros"
+        },
+        {
+          "qFallbackTitle": "Descrição Conta Contabil",
+          "qApprMaxGlyphCount": 51,
+          "qCardinal": 2499,
+          "qSortIndicator": "A",
+          "qGroupFallbackTitles": [
+            "Descrição Conta Contabil"
+          ],
+          "qGroupPos": 0,
+          "qStateCounts": {
+            "qLocked": 0,
+            "qSelected": 0,
+            "qOption": 240,
+            "qDeselected": 0,
+            "qAlternative": 0,
+            "qExcluded": 2259,
+            "qSelectedExcluded": 0,
+            "qLockedExcluded": 0
+          },
+          "qTags": [
+            "$text"
+          ],
+          "qDimensionType": "D",
+          "qGrouping": "N",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 0,
+            "qUseThou": 0
+          },
+          "qIsAutoFormat": true,
+          "qGroupFieldDefs": [
+            "Descrição Conta Contabil"
+          ],
+          "qMin": 0,
+          "qMax": 0,
+          "qAttrExprInfo": [],
+          "qAttrDimInfo": [],
+          "qCardinalities": {
+            "qCardinal": 0,
+            "qHypercubeCardinal": 0,
+            "qAllValuesCardinal": -1
+          },
+          "autoSort": true,
+          "cId": "gcMBqh",
+          "othersLabel": "Outros"
+        },
+        {
+          "qFallbackTitle": "Empresa",
+          "qApprMaxGlyphCount": 30,
+          "qCardinal": 62,
+          "qSortIndicator": "A",
+          "qGroupFallbackTitles": [
+            "Empresa"
+          ],
+          "qGroupPos": 0,
+          "qStateCounts": {
+            "qLocked": 0,
+            "qSelected": 1,
+            "qOption": 0,
+            "qDeselected": 0,
+            "qAlternative": 43,
+            "qExcluded": 18,
+            "qSelectedExcluded": 0,
+            "qLockedExcluded": 0
+          },
+          "qTags": [
+            "$text",
+            "$ascii"
+          ],
+          "qDimensionType": "D",
+          "qGrouping": "N",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 0,
+            "qUseThou": 0
+          },
+          "qIsAutoFormat": true,
+          "qGroupFieldDefs": [
+            "NomeEmpresa"
+          ],
+          "qMin": 0,
+          "qMax": 0,
+          "qAttrExprInfo": [],
+          "qAttrDimInfo": [],
+          "qCardinalities": {
+            "qCardinal": 0,
+            "qHypercubeCardinal": 0,
+            "qAllValuesCardinal": -1
+          },
+          "title": "Empresa",
+          "autoSort": true,
+          "cId": "jnWcYmw",
+          "othersLabel": "Outros"
+        },
+        {
+          "qFallbackTitle": "MesAno",
+          "qApprMaxGlyphCount": 8,
+          "qCardinal": 24,
+          "qSortIndicator": "A",
+          "qGroupFallbackTitles": [
+            "MesAno"
+          ],
+          "qGroupPos": 0,
+          "qStateCounts": {
+            "qLocked": 0,
+            "qSelected": 2,
+            "qOption": 0,
+            "qDeselected": 0,
+            "qAlternative": 10,
+            "qExcluded": 12,
+            "qSelectedExcluded": 0,
+            "qLockedExcluded": 0
+          },
+          "qTags": [
+            "$numeric",
+            "$integer",
+            "$timestamp",
+            "$date"
+          ],
+          "qDimensionType": "N",
+          "qGrouping": "N",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 0,
+            "qUseThou": 0
+          },
+          "qIsAutoFormat": true,
+          "qGroupFieldDefs": [
+            "MesAno"
+          ],
+          "qMin": 0,
+          "qMax": 0,
+          "qAttrExprInfo": [],
+          "qAttrDimInfo": [],
+          "qCardinalities": {
+            "qCardinal": 0,
+            "qHypercubeCardinal": 0,
+            "qAllValuesCardinal": -1
+          },
+          "autoSort": true,
+          "cId": "Rrfmwy",
+          "othersLabel": "Outros"
+        }
+      ],
+      "qMeasureInfo": [
+        {
+          "qFallbackTitle": "Soma Valor",
+          "qApprMaxGlyphCount": 14,
+          "qCardinal": 0,
+          "qSortIndicator": "D",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "#.##0,00",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qMin": -22765859.013962656,
+          "qMax": 22713606.119999997,
+          "qAttrExprInfo": [
+            {
+              "qMin": 0,
+              "qMax": 0
+            },
+            {
+              "qMin": 0,
+              "qMax": 0
+            }
+          ],
+          "qAttrDimInfo": [],
+          "qTrendLines": [],
+          "autoSort": true,
+          "cId": "jcEzdXj",
+          "numFormatFromTemplate": true
+        }
+      ],
+      "qEffectiveInterColumnSortOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "qGrandTotalRow": [],
+      "qDataPages": [],
+      "qPivotDataPages": [
+        {
+          "qLeft": [
+            {
+              "qText": "Total Desc1",
+              "qElemNo": -1,
+              "qValue": "NaN",
+              "qType": "T",
+              "qUp": 0,
+              "qDown": 0,
+              "qSubNodes": [
+                {
+                  "qElemNo": -4,
+                  "qValue": "NaN",
+                  "qType": "E",
+                  "qUp": 0,
+                  "qDown": 2,
+                  "qSubNodes": [
+                    {
+                      "qElemNo": -4,
+                      "qValue": "NaN",
+                      "qType": "E",
+                      "qUp": 0,
+                      "qDown": 3,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 0,
+                          "qDown": 4,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "qText": "4-CONTAS DE RESULTADO - CREDITO",
+              "qElemNo": 1,
+              "qValue": "NaN",
+              "qCanExpand": true,
+              "qType": "N",
+              "qUp": 0,
+              "qDown": 0,
+              "qSubNodes": [
+                {
+                  "qElemNo": -4,
+                  "qValue": "NaN",
+                  "qType": "E",
+                  "qUp": 1,
+                  "qDown": 1,
+                  "qSubNodes": [
+                    {
+                      "qElemNo": -4,
+                      "qValue": "NaN",
+                      "qType": "E",
+                      "qUp": 1,
+                      "qDown": 2,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 1,
+                          "qDown": 3,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "qText": "5-CONTA DE RESULTADO - DEBITO",
+              "qElemNo": 2,
+              "qValue": "NaN",
+              "qCanExpand": true,
+              "qType": "N",
+              "qUp": 0,
+              "qDown": 0,
+              "qSubNodes": [
+                {
+                  "qElemNo": -4,
+                  "qValue": "NaN",
+                  "qType": "E",
+                  "qUp": 2,
+                  "qDown": 0,
+                  "qSubNodes": [
+                    {
+                      "qElemNo": -4,
+                      "qValue": "NaN",
+                      "qType": "E",
+                      "qUp": 2,
+                      "qDown": 1,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 2,
+                          "qDown": 2,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "qText": "10-RATEIOS GERENCIAIS",
+              "qElemNo": 7,
+              "qValue": "NaN",
+              "qCanCollapse": true,
+              "qType": "N",
+              "qUp": 0,
+              "qDown": 0,
+              "qSubNodes": [
+                {
+                  "qText": "Totais",
+                  "qElemNo": -1,
+                  "qValue": "NaN",
+                  "qType": "T",
+                  "qUp": 0,
+                  "qDown": 0,
+                  "qSubNodes": [
+                    {
+                      "qElemNo": -4,
+                      "qValue": "NaN",
+                      "qType": "E",
+                      "qUp": 3,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 3,
+                          "qDown": 1,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "qText": "102-RATEIOS - PERCENTUAL FATURAMENTO",
+                  "qElemNo": 16,
+                  "qValue": "NaN",
+                  "qCanCollapse": true,
+                  "qType": "N",
+                  "qUp": 0,
+                  "qDown": 0,
+                  "qSubNodes": [
+                    {
+                      "qText": "Totais",
+                      "qElemNo": -1,
+                      "qValue": "NaN",
+                      "qType": "T",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 4,
+                          "qDown": 0,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1021-NBS - Informática",
+                      "qElemNo": 49,
+                      "qValue": "NaN",
+                      "qCanCollapse": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qText": "Totais",
+                          "qElemNo": -1,
+                          "qValue": "NaN",
+                          "qType": "T",
+                          "qUp": 0,
+                          "qDown": 0,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        },
+                        {
+                          "qText": "1021-NBS - Informática",
+                          "qElemNo": 81,
+                          "qValue": "NaN",
+                          "qCanCollapse": true,
+                          "qType": "N",
+                          "qUp": 0,
+                          "qDown": 0,
+                          "qSubNodes": [
+                            {
+                              "qText": "Totais",
+                              "qElemNo": -1,
+                              "qValue": "NaN",
+                              "qType": "T",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            },
+                            {
+                              "qText": "1021-NBS - Informática",
+                              "qElemNo": 2456,
+                              "qValue": "NaN",
+                              "qType": "N",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            },
+                            {
+                              "qText": "10210-Squaregroup",
+                              "qElemNo": 2464,
+                              "qValue": "NaN",
+                              "qType": "N",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            },
+                            {
+                              "qText": "10211-Tayrone - Advocatício",
+                              "qElemNo": 2465,
+                              "qValue": "NaN",
+                              "qType": "N",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            },
+                            {
+                              "qText": "10212-Departamentos Corporativos",
+                              "qElemNo": 2466,
+                              "qValue": "NaN",
+                              "qType": "N",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            },
+                            {
+                              "qText": "10213-Icarros",
+                              "qElemNo": 2467,
+                              "qValue": "NaN",
+                              "qType": "N",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1022-Skill - Contabilidade",
+                      "qElemNo": 48,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 0,
+                          "qDown": 11,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1023-Correios",
+                      "qElemNo": 50,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 1,
+                          "qDown": 10,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1024-CDL-GO - Cadastro",
+                      "qElemNo": 51,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 2,
+                          "qDown": 9,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1025-SERASA - Cadastro",
+                      "qElemNo": 52,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 3,
+                          "qDown": 8,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1026-LG - Folha Pagamenro",
+                      "qElemNo": 53,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 4,
+                          "qDown": 7,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1027-Terravista",
+                      "qElemNo": 54,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 5,
+                          "qDown": 6,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1028-Norber",
+                      "qElemNo": 55,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 6,
+                          "qDown": 5,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "qText": "1029-GRF Tecnologia",
+                      "qElemNo": 56,
+                      "qValue": "NaN",
+                      "qCanExpand": true,
+                      "qType": "N",
+                      "qUp": 0,
+                      "qDown": 0,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 7,
+                          "qDown": 4,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "qText": "103-RATEIO - DESPESAS FINANCEIRAS",
+                  "qElemNo": 17,
+                  "qValue": "NaN",
+                  "qCanExpand": true,
+                  "qType": "N",
+                  "qUp": 0,
+                  "qDown": 0,
+                  "qSubNodes": [
+                    {
+                      "qElemNo": -4,
+                      "qValue": "NaN",
+                      "qType": "E",
+                      "qUp": 0,
+                      "qDown": 3,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 8,
+                          "qDown": 3,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "qText": "104-REEMBOLSO - DESPESAS FINANCEIRAS",
+                  "qElemNo": 18,
+                  "qValue": "NaN",
+                  "qCanExpand": true,
+                  "qType": "N",
+                  "qUp": 0,
+                  "qDown": 2,
+                  "qSubNodes": [
+                    {
+                      "qElemNo": -4,
+                      "qValue": "NaN",
+                      "qType": "E",
+                      "qUp": 1,
+                      "qDown": 2,
+                      "qSubNodes": [
+                        {
+                          "qElemNo": -4,
+                          "qValue": "NaN",
+                          "qType": "E",
+                          "qUp": 9,
+                          "qDown": 2,
+                          "qSubNodes": [
+                            {
+                              "qElemNo": -4,
+                              "qValue": "NaN",
+                              "qType": "E",
+                              "qUp": 0,
+                              "qDown": 0,
+                              "qSubNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "qTop": [
+            {
+              "qText": "Totais",
+              "qElemNo": -1,
+              "qValue": "NaN",
+              "qType": "T",
+              "qUp": 0,
+              "qDown": 0,
+              "qSubNodes": [
+                {
+                  "qElemNo": -4,
+                  "qValue": "NaN",
+                  "qType": "E",
+                  "qUp": 0,
+                  "qDown": 0,
+                  "qSubNodes": []
+                }
+              ]
+            },
+            {
+              "qText": "02 NAVESA FORD AEROPORTO",
+              "qElemNo": 36,
+              "qValue": "NaN",
+              "qCanCollapse": true,
+              "qType": "N",
+              "qUp": 0,
+              "qDown": 0,
+              "qSubNodes": [
+                {
+                  "qText": "jan 2016",
+                  "qElemNo": 8,
+                  "qValue": 42370,
+                  "qType": "N",
+                  "qUp": 0,
+                  "qDown": 0,
+                  "qSubNodes": []
+                },
+                {
+                  "qText": "fev 2016",
+                  "qElemNo": 12,
+                  "qValue": 42401,
+                  "qType": "N",
+                  "qUp": 0,
+                  "qDown": 0,
+                  "qSubNodes": []
+                }
+              ]
+            }
+          ],
+          "qData": [
+            [
+              {
+                "qText": "1.095.784,26",
+                "qNum": 1095784.2639194676,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "748.940,20",
+                "qNum": 748940.2027750342,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "346.844,06",
+                "qNum": 346844.06114443345,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "22.713.606,12",
+                "qNum": 22713606.119999997,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "11.857.478,86",
+                "qNum": 11857478.859999998,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "10.856.127,26",
+                "qNum": 10856127.259999998,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "-22.765.859,01",
+                "qNum": -22765859.013962656,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "-11.703.176,18",
+                "qNum": -11703176.18335156,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "-11.062.682,83",
+                "qNum": -11062682.830611087,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "1.148.037,16",
+                "qNum": 1148037.157882128,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "594.637,53",
+                "qNum": 594637.5261266008,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "553.399,63",
+                "qNum": 553399.6317555272,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "1.037.137,59",
+                "qNum": 1037137.5878856657,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "515.427,11",
+                "qNum": 515427.10578050493,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "521.710,48",
+                "qNum": 521710.4821051608,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "767.104,84",
+                "qNum": 767104.8423303246,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "381.485,13",
+                "qNum": 381485.1254805047,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "385.619,72",
+                "qNum": 385619.7168498199,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "767.104,84",
+                "qNum": 767104.8423303246,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "381.485,13",
+                "qNum": 381485.1254805047,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "385.619,72",
+                "qNum": 385619.7168498199,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "56.238,72",
+                "qNum": 56238.72340289762,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "27.638,10",
+                "qNum": 27638.097747462965,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "28.600,63",
+                "qNum": 28600.625655434662,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "5.254,56",
+                "qNum": 5254.558073411787,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.606,58",
+                "qNum": 2606.584024685968,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.647,97",
+                "qNum": 2647.974048725819,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "25.705,91",
+                "qNum": 25705.909282182212,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "13.179,84",
+                "qNum": 13179.844576287975,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "12.526,06",
+                "qNum": 12526.064705894238,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "689.881,92",
+                "qNum": 689881.9218483188,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "338.060,60",
+                "qNum": 338060.5991320678,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "351.821,32",
+                "qNum": 351821.322716251,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "-9.976,27",
+                "qNum": -9976.270276485875,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "-",
+                "qNum": "NaN",
+                "qType": "U"
+              },
+              {
+                "qText": "-9.976,27",
+                "qNum": -9976.270276485875,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "218.387,36",
+                "qNum": 218387.35563900226,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "107.324,82",
+                "qNum": 107324.82383570101,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "111.062,53",
+                "qNum": 111062.53180330124,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "24.994,75",
+                "qNum": 24994.75411301524,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "13.220,12",
+                "qNum": 13220.12024883911,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "11.774,63",
+                "qNum": 11774.633864176129,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "5.049,39",
+                "qNum": 5049.392506783155,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.540,62",
+                "qNum": 2540.6216513824756,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.508,77",
+                "qNum": 2508.77085540068,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "1.800,26",
+                "qNum": 1800.2563647352895,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "785,59",
+                "qNum": 785.5928300824758,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "1.014,66",
+                "qNum": 1014.6635346528137,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "5.073,15",
+                "qNum": 5073.1484366530585,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.516,59",
+                "qNum": 2516.5936859185517,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.556,55",
+                "qNum": 2556.554750734507,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "5.178,92",
+                "qNum": 5178.915158365227,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.691,42",
+                "qNum": 2691.4243853197613,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.487,49",
+                "qNum": 2487.4907730454665,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "3.816,68",
+                "qNum": 3816.678165792204,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.019,26",
+                "qNum": 2019.2574540084693,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "1.797,42",
+                "qNum": 1797.4207117837345,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "5.732,25",
+                "qNum": 5732.245170994676,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.843,55",
+                "qNum": 2843.546208748329,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "2.888,70",
+                "qNum": 2888.698962246348,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "-178.499,49",
+                "qNum": -178499.4906828389,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "-90.326,82",
+                "qNum": -90326.82383656834,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "-88.172,67",
+                "qNum": -88172.66684627056,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "qText": "187.409,68",
+                "qNum": 187409.6806793011,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "97.090,20",
+                "qNum": 97090.20418266417,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "90.319,48",
+                "qNum": 90319.47649663693,
+                "qType": "V",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": 4290693340
+                    },
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ]
+          ],
+          "qArea": {
+            "qLeft": 0,
+            "qTop": 0,
+            "qWidth": 3,
+            "qHeight": 22
+          }
+        }
+      ],
+      "qStackedDataPages": [],
+      "qMode": "P",
+      "qNoOfLeftDims": 5,
+      "qIndentMode": true,
+      "qLastExpandedPos": {
+        "qx": 0,
+        "qy": 0
+      },
+      "qTreeNodesOnDim": [],
+      "qColumnOrder": [],
+      "customErrorMessage": {
+        "calcCond": ""
+      }
+    },
+    "showTitles": true,
+    "title": "DRE",
+    "subtitle": "",
+    "footnote": "",
+    "visualization": "pivot-table",
+    "snapshotData": {
+      "object": {
+        "size": {
+          "w": 1328,
+          "h": 469
+        }
+      },
+      "parent": {
+        "h": 563,
+        "w": 1354
+      }
+    },
+    "visualizationType": "pivot-table",
+    "sourceObjectId": "EVtLaFH",
+    "timestamp": 1459173837839,
+    "isClone": false
+  }
+]

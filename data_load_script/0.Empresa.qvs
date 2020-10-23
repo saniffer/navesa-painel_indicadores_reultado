@@ -1,0 +1,15 @@
+///$tab 0.Empresa
+TabEmpresa:
+LOAD
+    CodEmpresa,
+    NomeEmpresa
+FROM [lib://Transform/TabEmpresa.qvd]
+(qvd);
+
+TabGrupoEmpresas:
+LOAD
+    "Grupo Empresa",
+    CodEmpresa,
+    RazãoSocial
+FROM [lib://1.resources/Filtro Grupo Empresas.xlsx]
+(ooxml, embedded labels, table is [Grupo de Empresas]);

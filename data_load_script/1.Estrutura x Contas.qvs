@@ -1,0 +1,53 @@
+///$tab 1.Estrutura x Contas
+vTemp:
+LOAD
+    Visão,
+    Cod,
+    CodContaI,
+    CodContaF 
+FROM [lib://1.resources/visão.xlsx]
+(ooxml, embedded labels, table is [Contas Contábeis]);
+ 
+ 
+TabPlanoContas: 
+LOAD DISTINCT
+    Conta  AS CodContaContabil 
+FROM 
+	[lib://Transform/TabContaContabil.qvd] (qvd); 
+
+
+
+imatch:
+IntervalMatch(CodContaContabil) LOAD CodContaI, CodContaF Resident vTemp;
+drop Table TabPlanoContas;
+
+prevtemp:
+NoConcatenate Load
+	*
+Resident
+	vTemp;
+
+Left Join(prevtemp)
+Load
+	*
+Resident
+	imatch;
+    
+drop Tables imatch, vTemp;
+
+drop fields CodContaI, CodContaF; 
+
+TabVisoes:
+NoConcatenate Load Distinct
+	AutoNumberHash128(Visão, Cod) as IdVisao,
+	*
+Resident
+	prevtemp
+Where
+	not isnull(CodContaContabil)
+;
+
+drop table prevtemp;  
+
+TabVF:
+Load Distinct Visão, CodContaContabil Resident TabVisoes;
